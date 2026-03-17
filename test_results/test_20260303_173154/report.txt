@@ -1,0 +1,35 @@
+
+======================================================================
+EVALUATION REPORT
+Generated: 2026-03-03 17:49:13
+======================================================================
+
+OVERVIEW
+--------
+Total Episodes: 50
+
+PERFORMANCE METRICS
+-------------------
+Success Rate:           90.00%
+Average Episode Reward: 1551.67 ± 924.23
+Average Episode Length: 590.2 ± 245.2 steps
+
+DISTANCE METRICS
+----------------
+Average Final Distance: 0.663 m
+Average Min Distance:   0.424 m
+Path Efficiency:        71.84%
+
+BEHAVIORAL METRICS
+------------------
+Goal Visibility Ratio:  53.50%
+Average Alignment:      0.462
+Avg Forward Velocity:   0.985
+
+INTERPRETATION
+--------------
+EXCELLENT: Model shows strong performance with >75% success rate.
+Model sometimes loses sight of goal.
+Model takes efficient paths to goal.
+
+======================================================================
