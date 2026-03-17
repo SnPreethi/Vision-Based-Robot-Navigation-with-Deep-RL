@@ -71,7 +71,7 @@ Following are the conditions on which the rewards are assigned in (`_6_reward.py
 - Time
 - Episode Timeout
 
-## SYSTEM & DEVELOPMENTENVIRONMENT
+## SYSTEM & DEVELOPMENT ENVIRONMENT
 Following is the list of tools and system on which this project was developed.
 - **Operating System**: Ubuntu 22.04 LTS
 - **ROS 2 Distribution**: ROS 2 Humble
