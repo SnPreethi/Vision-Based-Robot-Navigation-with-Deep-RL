@@ -10,6 +10,9 @@ Only visual observations from an onboard camera and ground-truth odometry (solel
   <img src="Assets/CameraViewOutputs/PerspectiveChange_GoalMarker.png" width="300" hspace="10" />
   <img src="Assets\CameraViewOutputs\CameraView_GoalMarker.png" width="300" />
 </div>
+<div align ="center">
+  <img src="Assets\GIF.gif" width="640" />
+</div>
 </div>
 
 ## KEY FEATURES
