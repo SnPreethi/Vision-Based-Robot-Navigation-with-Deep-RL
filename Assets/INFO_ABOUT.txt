@@ -1,0 +1,71 @@
+END-TO-END DEEP RL
+
+- Map raw camera images directly to control actions without intermediate feature extraction or perception modules.
+- Neural network processes pixel data from the camera node as the agent's observation, outputting velocity commands for obstacle avoidance.
+
+What It Is
+- Train a single DNN (typically CNN-based) taking high dimensional inputs like raw RGB or grayscale image and outputs discrete or continuous choices.
+- The network learns entire pipeline - perception, decision-making, and control through trial-and-error interactions guided by reward function.
+
+When To Use
+- Tasks needing tight perception-action coupling (dynamic obstacle avoidance)
+- Latency (<100ms)
+
+How It Works
+- Observation: ROS2 node subscribes to camera, stacks 3-4 consecutive frames for motion, normalized to, feeds to CNN backbone (e.g., NatureCNN from Stable baselines3)
+- Policy Training: Algorithms like PPO or DQN optimize via actor-critic or Q-value estimation; PPO handles continuous actions better for smooth navigation.
+- Reward Design: Sparse (goal reach) or dense (distance to nearest obstacle via raycasts in sim); no manual labels needed beyond shaping.
+- ROS2 Integration: Custom Gym env wraps ROS2 lifecycle node—reset spawns robot, step publishes actions to /cmd_vel, collects images via cv_bridge.
+
+Why Choose It
+- Eliminates hard-engineered pipelines - better generalization via learned representations
+- Rewards focus on outcomes and not heuristics
+
+How It Works
+- Observation: ROS2 node subscribes to /camera/image_raw, stacks 3-4 consecutive frames for motion, normalizes to, feeds to CNN backbone (e.g., NatureCNN from Stable Baselines3).
+- Policy Training: Algorithms like PPO or DQN optimize via actor-critic or Q-value estimation; PPO handles continuous actions better for smooth navigation.
+- Reward Design: Sparse (goal reach) or dense (distance to nearest obstacle via raycasts in sim); no manual labels needed beyond shaping.
+- ROS2 Integration: Custom Gym env wraps ROS2 lifecycle node—reset spawns robot, step publishes actions to /cmd_vel, collects images via cv_bridge.
+
+Advantages
+- Eliminates hand-engineered pipelines
+- Enables generalization to unseen obstacles via learned representations
+- Reward focus on outcomes, not heuristics suiting vision-only setup where depth sensors are absent
+- Single model reduces hyperparameters and debugging, scales with data
+- Learning robust policies and partial occlusions or textures without explicit rules
+- Modern methods like PPO converge in 1-10M steps in sim, transferable to ROS2 hardware
+
+Disadvantages
+- Data Hunger
+- Vision inputs explode state space (10^6 dims vs lidar's 360), black box opacity hinders debugging
+- Domain randomization (lighting, textures) needed but imperfect
+
+Does It Work
+- Works reliably in controlled settings - e.g., DQN navigates from pixels (Atari benchmark), PPO avoids obstacles in Gazebo/ROS2.
+- Failures stem from poor rewards, overfitting to sim visuals, mitigated by curriculum learning, and diverse training data.
+- In ROS2 vision-only robots, it succeeds for indoor navigation but struggles in sparse-reward outdoor clutter without auxiliary shaping.
+
+
+RESOURCES
+
+Articles
+1. https://www.linkedin.com/posts/ahcorde_ros-ros2-simulation-activity-7307407517838434308-sj0j
+2. https://pmc.ncbi.nlm.nih.gov/articles/PMC12540343/
+3. https://jerinpeter.github.io/dqn.html
+4. https://pmc.ncbi.nlm.nih.gov/articles/PMC12300016/
+5. https://pmc.ncbi.nlm.nih.gov/articles/PMC12540343/
+6. https://www.youtube.com/watch?v=Sh9V_vG21qw&t=1s
+7. https://bair.berkeley.edu/blog/2019/05/28/end-to-end/
+8. https://www.mmscience.eu/journal/issues/october-2024/articles/optimal-obstacle-avoidance-strategy-using-deep-reinforcement-learning-based-on-stereo-camera
+9. https://www.reddit.com/r/ROS/comments/137a3i0/ros2_deep_reinforcement_learning_robot_navigation/
+
+Code repos
+1. https://github.com/tomasvr/turtlebot3_drlnav
+2. https://github.com/reiniscimurs/DRL-Robot-Navigation-ROS2
+3. https://github.com/Geonhee-LEE/mobilerobot_rl
+4. https://github.com/AI-Geniuses/Autonomous-Robot-Obstacle-Avoidance-with-ROS2
+
+
+GENERAL FRAMEWORKS FOR ADAPTATION
+1. Stable Baselines3 (with ROS2 Gym): PPO / DQN for custom vision envs; wrap ROS2 camera node as Gym observaiton space for end-to-end training.
+2. RLlib or CleanRL PPO repos: Vision baselines (Atari-style CNNs) portable to ROS2.
