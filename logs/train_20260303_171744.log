@@ -1,0 +1,8 @@
+2026-03-03 17:17:44,285 [INFO] Starting RL Training
+2026-03-03 17:17:44,285 [INFO] Using device: cuda
+2026-03-03 17:17:44,299 [INFO] GPU name: NVIDIA GeForce RTX 4080
+2026-03-03 17:17:44,300 [INFO] TensorBoard logging enabled (tensorboard/)
+2026-03-03 17:17:44,973 [INFO] Resumed training from checkpoint: checkpoints/ppo_ep_02400.pt | episode = 2400, global_step = 1906447
+2026-03-03 17:17:48,901 [INFO] Step 0: reward=0.095, dist=7.62
+2026-03-03 17:17:56,211 [INFO] Step 200: reward=-0.489, dist=6.78
+2026-03-03 17:18:03,722 [INFO] Step 400: reward=6.512, dist=7.01

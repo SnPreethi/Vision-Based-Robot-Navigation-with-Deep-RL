@@ -1,0 +1,14 @@
+2026-02-24 11:52:16,126 [INFO] Starting RL Training
+2026-02-24 11:52:16,126 [INFO] Using device: cuda
+2026-02-24 11:52:16,138 [INFO] GPU name: NVIDIA GeForce RTX 4080
+2026-02-24 11:52:16,139 [INFO] TensorBoard logging enabled (tensorboard/)
+2026-02-24 11:52:19,715 [INFO] Step 0: reward=-0.247, dist=2.51
+2026-02-24 11:52:25,647 [INFO] Step 200: reward=-3.275, dist=2.51
+2026-02-24 11:52:29,551 [INFO] Step 400: reward=-2.262, dist=2.47
+2026-02-24 11:52:36,308 [INFO] Step 600: reward=-2.242, dist=2.45
+2026-02-24 11:52:42,883 [INFO] Step 800: reward=-3.224, dist=2.46
+2026-02-24 11:52:48,248 [INFO] Episode 0 COMPLETE | Reward -2295.69 | Steps 1000 | Terminated False | Truncated True
+2026-02-24 11:52:50,438 [INFO] Step 0: reward=-0.305, dist=3.76
+2026-02-24 11:52:58,268 [INFO] Step 200: reward=-2.247, dist=3.78
+2026-02-24 11:53:03,796 [INFO] Step 400: reward=-0.315, dist=3.81
+2026-02-24 11:53:11,085 [INFO] Step 600: reward=-0.238, dist=3.86

@@ -1,0 +1,1435 @@
+2026-03-02 16:36:01,508 [INFO] Starting RL Training
+2026-03-02 16:36:01,509 [INFO] Using device: cuda
+2026-03-02 16:36:01,521 [INFO] GPU name: NVIDIA GeForce RTX 4080
+2026-03-02 16:36:01,521 [INFO] TensorBoard logging enabled (tensorboard/)
+2026-03-02 16:36:02,188 [INFO] Resumed training from checkpoint: checkpoints/ppo_ep_02100.pt | episode = 2100, global_step = 1680330
+2026-03-02 16:36:06,857 [INFO] Step 0: reward=-0.209, dist=2.38
+2026-03-02 16:36:13,226 [INFO] Step 200: reward=-0.238, dist=1.10
+2026-03-02 16:36:18,877 [INFO] Step 400: reward=-2.305, dist=1.49
+2026-03-02 16:36:25,849 [INFO] Step 600: reward=-0.358, dist=2.26
+2026-03-02 16:36:33,198 [INFO] Step 800: reward=-0.218, dist=3.14
+2026-03-02 16:36:41,519 [INFO] Episode 2100 COMPLETE | Reward -619.94 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:36:41,553 [INFO] Checkpoint saved: checkpoints/ppo_ep_02100.pt
+2026-03-02 16:36:44,665 [INFO] Step 0: reward=-0.305, dist=3.62
+2026-03-02 16:36:48,241 [INFO] Performing PPO update at global step 1681408
+2026-03-02 16:36:48,717 [INFO] PPO losses — policy: 0.0352, value: 490.0405, entropy: 4.2242
+2026-03-02 16:36:48,721 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 16:36:50,727 [INFO] Episode 2101 COMPLETE | Reward 924.59 | Steps 160 | Terminated True | Truncated False
+2026-03-02 16:36:50,759 [INFO] New BEST model saved! Reward = 924.59 (episode 2101)
+2026-03-02 16:36:53,814 [INFO] Step 0: reward=0.094, dist=4.70
+2026-03-02 16:37:03,996 [INFO] Step 200: reward=0.093, dist=6.13
+2026-03-02 16:37:10,501 [INFO] Step 400: reward=6.505, dist=4.21
+2026-03-02 16:37:17,679 [INFO] Episode 2102 COMPLETE | Reward 931.49 | Steps 586 | Terminated True | Truncated False
+2026-03-02 16:37:17,713 [INFO] New BEST model saved! Reward = 931.49 (episode 2102)
+2026-03-02 16:37:20,940 [INFO] Step 0: reward=-1.913, dist=7.64
+2026-03-02 16:37:27,690 [INFO] Step 200: reward=-0.393, dist=9.03
+2026-03-02 16:37:35,157 [INFO] Step 400: reward=0.056, dist=10.06
+2026-03-02 16:37:41,599 [INFO] Step 600: reward=0.095, dist=9.09
+2026-03-02 16:37:49,403 [INFO] Step 800: reward=5.302, dist=6.86
+2026-03-02 16:37:57,294 [INFO] Episode 2103 COMPLETE | Reward 667.02 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:38:01,450 [INFO] Step 0: reward=0.053, dist=5.94
+2026-03-02 16:38:10,277 [INFO] Step 200: reward=0.173, dist=8.79
+2026-03-02 16:38:16,654 [INFO] Performing PPO update at global step 1683456
+2026-03-02 16:38:16,935 [INFO] PPO losses — policy: 0.0019, value: 1248.1076, entropy: 4.2242
+2026-03-02 16:38:16,939 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 16:38:17,147 [INFO] Step 400: reward=-1.917, dist=10.87
+2026-03-02 16:38:22,376 [INFO] Step 600: reward=-0.027, dist=12.06
+2026-03-02 16:38:27,001 [INFO] Step 800: reward=-1.991, dist=12.47
+2026-03-02 16:38:35,699 [INFO] Episode 2104 COMPLETE | Reward -373.48 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:38:40,321 [INFO] Step 0: reward=0.074, dist=6.98
+2026-03-02 16:38:46,201 [INFO] Step 200: reward=0.095, dist=7.37
+2026-03-02 16:38:54,798 [INFO] Step 400: reward=6.282, dist=5.60
+2026-03-02 16:39:02,009 [INFO] Step 600: reward=6.349, dist=2.86
+2026-03-02 16:39:06,168 [INFO] Episode 2105 COMPLETE | Reward 1705.77 | Steps 686 | Terminated True | Truncated False
+2026-03-02 16:39:06,209 [INFO] New BEST model saved! Reward = 1705.77 (episode 2105)
+2026-03-02 16:39:10,151 [INFO] Step 0: reward=0.090, dist=5.13
+2026-03-02 16:39:16,718 [INFO] Step 200: reward=0.018, dist=5.91
+2026-03-02 16:39:23,788 [INFO] Step 400: reward=0.095, dist=5.89
+2026-03-02 16:39:30,766 [INFO] Step 600: reward=0.178, dist=5.29
+2026-03-02 16:39:36,174 [INFO] Performing PPO update at global step 1685504
+2026-03-02 16:39:36,444 [INFO] PPO losses — policy: 0.0188, value: 1020.1612, entropy: 4.2242
+2026-03-02 16:39:36,449 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 16:39:39,347 [INFO] Step 800: reward=6.336, dist=3.40
+2026-03-02 16:39:44,848 [INFO] Episode 2106 COMPLETE | Reward 345.22 | Steps 912 | Terminated True | Truncated False
+2026-03-02 16:39:48,076 [INFO] Step 0: reward=-0.005, dist=6.84
+2026-03-02 16:39:57,455 [INFO] Step 200: reward=0.030, dist=9.38
+2026-03-02 16:40:04,941 [INFO] Step 400: reward=0.038, dist=10.37
+2026-03-02 16:40:13,401 [INFO] Step 600: reward=-1.921, dist=11.16
+2026-03-02 16:40:18,681 [INFO] Step 800: reward=0.075, dist=11.23
+2026-03-02 16:40:26,491 [INFO] Episode 2107 COMPLETE | Reward -708.51 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:40:31,147 [INFO] Step 0: reward=5.984, dist=7.66
+2026-03-02 16:40:42,219 [INFO] Step 200: reward=-6.934, dist=4.31
+2026-03-02 16:40:48,479 [INFO] Step 400: reward=0.586, dist=1.74
+2026-03-02 16:40:50,135 [INFO] Episode 2108 COMPLETE | Reward 1902.33 | Steps 449 | Terminated True | Truncated False
+2026-03-02 16:40:50,163 [INFO] New BEST model saved! Reward = 1902.33 (episode 2108)
+2026-03-02 16:40:52,265 [INFO] Step 0: reward=0.076, dist=6.37
+2026-03-02 16:40:57,567 [INFO] Step 200: reward=0.071, dist=5.65
+2026-03-02 16:41:05,391 [INFO] Step 400: reward=-0.235, dist=6.76
+2026-03-02 16:41:06,398 [INFO] Performing PPO update at global step 1687552
+2026-03-02 16:41:06,695 [INFO] PPO losses — policy: 0.0052, value: 1248.3359, entropy: 4.2242
+2026-03-02 16:41:06,701 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 16:41:14,536 [INFO] Step 600: reward=0.099, dist=8.89
+2026-03-02 16:41:21,660 [INFO] Step 800: reward=-1.987, dist=9.97
+2026-03-02 16:41:30,561 [INFO] Episode 2109 COMPLETE | Reward -658.19 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:41:34,057 [INFO] Step 0: reward=0.088, dist=5.11
+2026-03-02 16:41:40,299 [INFO] Step 200: reward=-0.595, dist=6.69
+2026-03-02 16:41:45,618 [INFO] Step 400: reward=0.087, dist=7.77
+2026-03-02 16:41:53,580 [INFO] Step 600: reward=-0.258, dist=9.27
+2026-03-02 16:42:01,485 [INFO] Step 800: reward=0.091, dist=9.58
+2026-03-02 16:42:07,513 [INFO] Episode 2110 COMPLETE | Reward -822.67 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:42:07,537 [INFO] Checkpoint saved: checkpoints/ppo_ep_02110.pt
+2026-03-02 16:42:09,887 [INFO] Step 0: reward=0.094, dist=7.49
+2026-03-02 16:42:14,564 [INFO] Step 200: reward=-1.909, dist=8.00
+2026-03-02 16:42:22,510 [INFO] Step 400: reward=-0.043, dist=9.77
+2026-03-02 16:42:25,165 [INFO] Performing PPO update at global step 1689600
+2026-03-02 16:42:25,455 [INFO] PPO losses — policy: -0.0052, value: 123.4873, entropy: 4.2242
+2026-03-02 16:42:25,461 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 16:42:30,126 [INFO] Step 600: reward=0.039, dist=11.05
+2026-03-02 16:42:36,033 [INFO] Step 800: reward=-1.750, dist=11.17
+2026-03-02 16:42:38,648 [INFO] Policy action (normalized): v = -0.971, w = +0.474 | Cmd_vel (scaled): v = -0.971 m/s, w = +0.474 rad/s
+2026-03-02 16:42:43,931 [INFO] Episode 2111 COMPLETE | Reward -890.82 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:42:48,221 [INFO] Step 0: reward=-0.239, dist=2.03
+2026-03-02 16:42:54,543 [INFO] Step 200: reward=-0.353, dist=3.62
+2026-03-02 16:43:02,231 [INFO] Step 400: reward=-1.202, dist=4.71
+2026-03-02 16:43:11,244 [INFO] Step 600: reward=-0.374, dist=5.27
+2026-03-02 16:43:18,441 [INFO] Step 800: reward=-1.877, dist=4.72
+2026-03-02 16:43:27,138 [INFO] Episode 2112 COMPLETE | Reward 230.70 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:43:31,242 [INFO] Step 0: reward=-0.223, dist=2.20
+2026-03-02 16:43:39,093 [INFO] Step 200: reward=-0.229, dist=2.27
+2026-03-02 16:43:45,828 [INFO] Step 400: reward=-2.205, dist=3.58
+2026-03-02 16:43:50,863 [INFO] Performing PPO update at global step 1691648
+2026-03-02 16:43:51,267 [INFO] PPO losses — policy: -0.0027, value: 700.5948, entropy: 4.2242
+2026-03-02 16:43:51,274 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 16:43:54,063 [INFO] Step 600: reward=0.095, dist=5.70
+2026-03-02 16:44:01,463 [INFO] Step 800: reward=-1.907, dist=7.40
+2026-03-02 16:44:08,341 [INFO] Episode 2113 COMPLETE | Reward -728.73 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:44:12,472 [INFO] Step 0: reward=-1.899, dist=4.89
+2026-03-02 16:44:18,510 [INFO] Step 200: reward=0.064, dist=6.41
+2026-03-02 16:44:27,729 [INFO] Step 400: reward=-1.906, dist=8.27
+2026-03-02 16:44:35,147 [INFO] Step 600: reward=5.077, dist=6.69
+2026-03-02 16:44:44,496 [INFO] Step 800: reward=6.275, dist=4.24
+2026-03-02 16:44:50,944 [INFO] Episode 2114 COMPLETE | Reward 1474.58 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:44:54,193 [INFO] Step 0: reward=0.095, dist=4.46
+2026-03-02 16:45:00,710 [INFO] Step 200: reward=-0.016, dist=4.24
+2026-03-02 16:45:07,438 [INFO] Step 400: reward=-0.284, dist=5.90
+2026-03-02 16:45:13,626 [INFO] Performing PPO update at global step 1693696
+2026-03-02 16:45:13,999 [INFO] PPO losses — policy: 0.0788, value: 1080.0922, entropy: 4.2242
+2026-03-02 16:45:14,006 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 16:45:15,193 [INFO] Step 600: reward=-1.902, dist=7.47
+2026-03-02 16:45:23,613 [INFO] Step 800: reward=0.125, dist=7.69
+2026-03-02 16:45:30,566 [INFO] Episode 2115 COMPLETE | Reward -614.68 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:45:34,248 [INFO] Step 0: reward=-1.201, dist=7.26
+2026-03-02 16:45:42,138 [INFO] Step 200: reward=-3.856, dist=6.30
+2026-03-02 16:45:49,211 [INFO] Step 400: reward=5.546, dist=5.08
+2026-03-02 16:45:55,721 [INFO] Step 600: reward=6.164, dist=2.90
+2026-03-02 16:45:59,985 [INFO] Episode 2116 COMPLETE | Reward 1266.63 | Steps 707 | Terminated True | Truncated False
+2026-03-02 16:46:02,370 [INFO] Step 0: reward=0.087, dist=7.74
+2026-03-02 16:46:11,079 [INFO] Step 200: reward=0.058, dist=7.32
+2026-03-02 16:46:18,787 [INFO] Step 400: reward=6.540, dist=5.72
+2026-03-02 16:46:25,694 [INFO] Step 600: reward=4.233, dist=5.00
+2026-03-02 16:46:34,170 [INFO] Step 800: reward=6.345, dist=2.25
+2026-03-02 16:46:37,022 [INFO] Episode 2117 COMPLETE | Reward 1109.54 | Steps 885 | Terminated True | Truncated False
+2026-03-02 16:46:40,131 [INFO] Step 0: reward=0.068, dist=4.43
+2026-03-02 16:46:40,544 [INFO] Performing PPO update at global step 1695744
+2026-03-02 16:46:40,820 [INFO] PPO losses — policy: 0.1218, value: 1465.7385, entropy: 4.2242
+2026-03-02 16:46:40,825 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 16:46:46,592 [INFO] Step 200: reward=-3.883, dist=4.07
+2026-03-02 16:46:52,054 [INFO] Step 400: reward=-2.109, dist=4.18
+2026-03-02 16:46:57,599 [INFO] Step 600: reward=-1.906, dist=4.17
+2026-03-02 16:47:03,756 [INFO] Step 800: reward=-3.688, dist=4.36
+2026-03-02 16:47:10,361 [INFO] Episode 2118 COMPLETE | Reward -1456.08 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:47:13,504 [INFO] Step 0: reward=-0.498, dist=7.56
+2026-03-02 16:47:20,460 [INFO] Step 200: reward=-1.900, dist=7.55
+2026-03-02 16:47:26,158 [INFO] Step 400: reward=-1.815, dist=8.22
+2026-03-02 16:47:33,965 [INFO] Step 600: reward=-3.823, dist=8.56
+2026-03-02 16:47:41,196 [INFO] Step 800: reward=0.089, dist=9.00
+2026-03-02 16:47:50,227 [INFO] Episode 2119 COMPLETE | Reward -1158.30 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:47:55,236 [INFO] Step 0: reward=-2.102, dist=3.96
+2026-03-02 16:47:58,047 [INFO] Performing PPO update at global step 1697792
+2026-03-02 16:47:58,360 [INFO] PPO losses — policy: 0.0152, value: 284.6633, entropy: 4.2242
+2026-03-02 16:47:58,365 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 16:48:04,050 [INFO] Step 200: reward=0.660, dist=1.39
+2026-03-02 16:48:04,895 [INFO] Episode 2120 COMPLETE | Reward 653.33 | Steps 215 | Terminated True | Truncated False
+2026-03-02 16:48:04,915 [INFO] Checkpoint saved: checkpoints/ppo_ep_02120.pt
+2026-03-02 16:48:09,054 [INFO] Step 0: reward=-0.005, dist=6.25
+2026-03-02 16:48:15,530 [INFO] Step 200: reward=-2.946, dist=5.98
+2026-03-02 16:48:20,047 [INFO] Step 400: reward=0.154, dist=6.16
+2026-03-02 16:48:28,200 [INFO] Step 600: reward=-1.905, dist=6.43
+2026-03-02 16:48:32,250 [INFO] Step 800: reward=-2.005, dist=6.69
+2026-03-02 16:48:40,260 [INFO] Episode 2121 COMPLETE | Reward -1548.02 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:48:43,051 [INFO] Step 0: reward=0.090, dist=4.81
+2026-03-02 16:48:48,183 [INFO] Step 200: reward=-1.920, dist=4.48
+2026-03-02 16:48:55,068 [INFO] Step 400: reward=-1.685, dist=4.38
+2026-03-02 16:49:01,732 [INFO] Step 600: reward=-3.063, dist=4.76
+2026-03-02 16:49:09,756 [INFO] Step 800: reward=0.085, dist=4.67
+2026-03-02 16:49:13,780 [INFO] Performing PPO update at global step 1699840
+2026-03-02 16:49:14,066 [INFO] PPO losses — policy: 0.0301, value: 735.9957, entropy: 4.2242
+2026-03-02 16:49:14,071 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 16:49:17,745 [INFO] Episode 2122 COMPLETE | Reward -1273.30 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:49:20,816 [INFO] Step 0: reward=0.091, dist=6.93
+2026-03-02 16:49:23,142 [INFO] Policy action (normalized): v = +0.999, w = +0.603 | Cmd_vel (scaled): v = +0.999 m/s, w = +0.603 rad/s
+2026-03-02 16:49:26,721 [INFO] Step 200: reward=-1.916, dist=7.64
+2026-03-02 16:49:33,367 [INFO] Step 400: reward=-3.805, dist=8.00
+2026-03-02 16:49:40,039 [INFO] Step 600: reward=-1.907, dist=8.34
+2026-03-02 16:49:46,477 [INFO] Step 800: reward=0.117, dist=8.87
+2026-03-02 16:49:54,263 [INFO] Episode 2123 COMPLETE | Reward -1554.54 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:49:58,097 [INFO] Step 0: reward=0.090, dist=7.05
+2026-03-02 16:50:05,720 [INFO] Step 200: reward=-0.004, dist=7.69
+2026-03-02 16:50:13,128 [INFO] Step 400: reward=-1.660, dist=8.19
+2026-03-02 16:50:21,647 [INFO] Step 600: reward=-1.905, dist=9.08
+2026-03-02 16:50:27,101 [INFO] Step 800: reward=0.099, dist=9.33
+2026-03-02 16:50:31,856 [INFO] Performing PPO update at global step 1701888
+2026-03-02 16:50:32,296 [INFO] PPO losses — policy: 0.0048, value: 380.3301, entropy: 4.2242
+2026-03-02 16:50:32,302 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 16:50:34,177 [INFO] Episode 2124 COMPLETE | Reward -1475.69 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:50:38,391 [INFO] Step 0: reward=-1.932, dist=3.80
+2026-03-02 16:50:47,895 [INFO] Step 200: reward=0.064, dist=4.49
+2026-03-02 16:50:54,992 [INFO] Step 400: reward=0.051, dist=4.70
+2026-03-02 16:51:03,487 [INFO] Step 600: reward=-0.298, dist=5.27
+2026-03-02 16:51:09,618 [INFO] Step 800: reward=-1.770, dist=4.73
+2026-03-02 16:51:17,878 [INFO] Episode 2125 COMPLETE | Reward -1231.66 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:51:21,261 [INFO] Step 0: reward=0.051, dist=5.92
+2026-03-02 16:51:26,834 [INFO] Step 200: reward=-3.545, dist=5.64
+2026-03-02 16:51:35,802 [INFO] Step 400: reward=4.886, dist=4.56
+2026-03-02 16:51:44,435 [INFO] Step 600: reward=0.940, dist=1.82
+2026-03-02 16:51:46,318 [INFO] Episode 2126 COMPLETE | Reward 689.17 | Steps 672 | Terminated True | Truncated False
+2026-03-02 16:51:49,040 [INFO] Step 0: reward=4.357, dist=4.44
+2026-03-02 16:51:55,533 [INFO] Step 200: reward=-5.380, dist=3.62
+2026-03-02 16:51:59,292 [INFO] Performing PPO update at global step 1703936
+2026-03-02 16:51:59,561 [INFO] PPO losses — policy: 0.0130, value: 1751.1191, entropy: 4.2242
+2026-03-02 16:51:59,566 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 16:52:01,165 [INFO] Step 400: reward=6.190, dist=2.30
+2026-03-02 16:52:03,966 [INFO] Episode 2127 COMPLETE | Reward 841.93 | Steps 472 | Terminated True | Truncated False
+2026-03-02 16:52:15,576 [INFO] Step 0: reward=0.069, dist=4.24
+2026-03-02 16:52:22,469 [INFO] Step 200: reward=-3.360, dist=4.00
+2026-03-02 16:52:31,358 [INFO] Step 400: reward=-2.233, dist=3.96
+2026-03-02 16:52:38,924 [INFO] Step 600: reward=6.995, dist=2.06
+2026-03-02 16:52:41,356 [INFO] Episode 2128 COMPLETE | Reward -166.49 | Steps 704 | Terminated True | Truncated False
+2026-03-02 16:52:44,474 [INFO] Step 0: reward=2.225, dist=7.20
+2026-03-02 16:52:49,119 [INFO] Step 200: reward=0.597, dist=5.81
+2026-03-02 16:52:54,336 [INFO] Step 400: reward=3.643, dist=4.74
+2026-03-02 16:53:02,763 [INFO] Step 600: reward=6.414, dist=2.56
+2026-03-02 16:53:06,041 [INFO] Episode 2129 COMPLETE | Reward 1692.74 | Steps 662 | Terminated True | Truncated False
+2026-03-02 16:53:09,003 [INFO] Step 0: reward=-0.205, dist=3.54
+2026-03-02 16:53:14,664 [INFO] Step 200: reward=-2.375, dist=3.80
+2026-03-02 16:53:20,532 [INFO] Step 400: reward=-0.248, dist=3.80
+2026-03-02 16:53:25,575 [INFO] Performing PPO update at global step 1705984
+2026-03-02 16:53:26,001 [INFO] PPO losses — policy: 0.0152, value: 1407.2968, entropy: 4.2242
+2026-03-02 16:53:26,008 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 16:53:28,700 [INFO] Step 600: reward=-0.206, dist=3.82
+2026-03-02 16:53:35,487 [INFO] Step 800: reward=-3.658, dist=3.88
+2026-03-02 16:53:40,938 [INFO] Episode 2130 COMPLETE | Reward -1564.90 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:53:40,960 [INFO] Checkpoint saved: checkpoints/ppo_ep_02130.pt
+2026-03-02 16:53:47,217 [INFO] Step 0: reward=0.089, dist=4.18
+2026-03-02 16:53:53,843 [INFO] Step 200: reward=0.095, dist=4.25
+2026-03-02 16:54:01,610 [INFO] Step 400: reward=0.037, dist=4.14
+2026-03-02 16:54:08,515 [INFO] Step 600: reward=-2.276, dist=3.44
+2026-03-02 16:54:15,034 [INFO] Step 800: reward=-0.235, dist=2.81
+2026-03-02 16:54:20,542 [INFO] Episode 2131 COMPLETE | Reward -1156.45 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:54:23,476 [INFO] Step 0: reward=-1.557, dist=7.41
+2026-03-02 16:54:27,886 [INFO] Step 200: reward=-1.969, dist=7.85
+2026-03-02 16:54:33,038 [INFO] Step 400: reward=-1.707, dist=7.92
+2026-03-02 16:54:38,646 [INFO] Performing PPO update at global step 1708032
+2026-03-02 16:54:38,931 [INFO] PPO losses — policy: 0.0041, value: 253.9469, entropy: 4.2242
+2026-03-02 16:54:38,936 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 16:54:39,036 [INFO] Step 600: reward=-0.185, dist=7.76
+2026-03-02 16:54:43,715 [INFO] Step 800: reward=-3.810, dist=7.57
+2026-03-02 16:54:49,676 [INFO] Episode 2132 COMPLETE | Reward -1310.97 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:54:53,816 [INFO] Step 0: reward=5.700, dist=6.07
+2026-03-02 16:54:58,697 [INFO] Step 200: reward=-8.036, dist=5.15
+2026-03-02 16:55:04,974 [INFO] Step 400: reward=4.317, dist=3.23
+2026-03-02 16:55:09,931 [INFO] Episode 2133 COMPLETE | Reward 2109.66 | Steps 543 | Terminated True | Truncated False
+2026-03-02 16:55:09,977 [INFO] New BEST model saved! Reward = 2109.66 (episode 2133)
+2026-03-02 16:55:13,634 [INFO] Step 0: reward=0.095, dist=4.59
+2026-03-02 16:55:20,395 [INFO] Step 200: reward=-1.863, dist=5.12
+2026-03-02 16:55:29,570 [INFO] Step 400: reward=0.058, dist=5.87
+2026-03-02 16:55:35,349 [INFO] Step 600: reward=-2.357, dist=7.10
+2026-03-02 16:55:39,687 [INFO] Step 800: reward=-3.762, dist=7.91
+2026-03-02 16:55:45,360 [INFO] Episode 2134 COMPLETE | Reward -1079.48 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:55:49,589 [INFO] Step 0: reward=-0.206, dist=2.37
+2026-03-02 16:55:50,202 [INFO] Policy action (normalized): v = +0.236, w = +0.928 | Cmd_vel (scaled): v = +0.236 m/s, w = +0.928 rad/s
+2026-03-02 16:55:52,506 [INFO] Performing PPO update at global step 1710080
+2026-03-02 16:55:52,851 [INFO] PPO losses — policy: 0.0016, value: 898.8353, entropy: 4.2242
+2026-03-02 16:55:52,857 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 16:55:55,902 [INFO] Step 200: reward=-0.336, dist=3.14
+2026-03-02 16:56:02,289 [INFO] Step 400: reward=-0.174, dist=4.31
+2026-03-02 16:56:09,260 [INFO] Step 600: reward=0.149, dist=5.47
+2026-03-02 16:56:16,607 [INFO] Step 800: reward=0.120, dist=6.66
+2026-03-02 16:56:22,424 [INFO] Episode 2135 COMPLETE | Reward -922.95 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:56:25,634 [INFO] Step 0: reward=0.095, dist=6.06
+2026-03-02 16:56:33,026 [INFO] Step 200: reward=-1.206, dist=5.67
+2026-03-02 16:56:40,334 [INFO] Step 400: reward=0.201, dist=6.38
+2026-03-02 16:56:47,165 [INFO] Step 600: reward=-1.907, dist=7.35
+2026-03-02 16:56:52,400 [INFO] Step 800: reward=-0.041, dist=8.47
+2026-03-02 16:56:59,179 [INFO] Episode 2136 COMPLETE | Reward -829.40 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:57:02,255 [INFO] Step 0: reward=-0.226, dist=2.23
+2026-03-02 16:57:05,334 [INFO] Performing PPO update at global step 1712128
+2026-03-02 16:57:05,637 [INFO] PPO losses — policy: -0.0007, value: 137.7083, entropy: 4.2242
+2026-03-02 16:57:05,644 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 16:57:06,930 [INFO] Step 200: reward=-0.541, dist=2.94
+2026-03-02 16:57:14,346 [INFO] Step 400: reward=0.091, dist=4.03
+2026-03-02 16:57:19,937 [INFO] Step 600: reward=-1.883, dist=5.04
+2026-03-02 16:57:24,621 [INFO] Step 800: reward=-1.970, dist=5.37
+2026-03-02 16:57:31,819 [INFO] Episode 2137 COMPLETE | Reward -1026.06 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:57:36,807 [INFO] Step 0: reward=-0.206, dist=3.81
+2026-03-02 16:57:40,497 [INFO] Step 200: reward=0.040, dist=4.41
+2026-03-02 16:57:47,414 [INFO] Step 400: reward=-2.070, dist=5.69
+2026-03-02 16:57:54,882 [INFO] Step 600: reward=0.048, dist=7.56
+2026-03-02 16:58:01,613 [INFO] Step 800: reward=0.094, dist=9.11
+2026-03-02 16:58:08,349 [INFO] Episode 2138 COMPLETE | Reward -826.32 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:58:11,572 [INFO] Step 0: reward=-7.703, dist=2.96
+2026-03-02 16:58:16,497 [INFO] Episode 2139 COMPLETE | Reward 781.56 | Steps 167 | Terminated True | Truncated False
+2026-03-02 16:58:18,877 [INFO] Step 0: reward=-0.238, dist=4.11
+2026-03-02 16:58:19,503 [INFO] Performing PPO update at global step 1714176
+2026-03-02 16:58:19,783 [INFO] PPO losses — policy: -0.0056, value: 218.7689, entropy: 4.2242
+2026-03-02 16:58:19,788 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 16:58:23,763 [INFO] Step 200: reward=-0.333, dist=5.32
+2026-03-02 16:58:28,534 [INFO] Step 400: reward=0.069, dist=6.21
+2026-03-02 16:58:36,061 [INFO] Step 600: reward=0.025, dist=7.35
+2026-03-02 16:58:45,362 [INFO] Step 800: reward=-1.200, dist=9.22
+2026-03-02 16:58:55,038 [INFO] Episode 2140 COMPLETE | Reward -539.53 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:58:55,059 [INFO] Checkpoint saved: checkpoints/ppo_ep_02140.pt
+2026-03-02 16:58:57,998 [INFO] Step 0: reward=-0.005, dist=6.03
+2026-03-02 16:59:05,290 [INFO] Step 200: reward=6.044, dist=4.23
+2026-03-02 16:59:12,090 [INFO] Step 400: reward=0.675, dist=1.01
+2026-03-02 16:59:12,187 [INFO] Episode 2141 COMPLETE | Reward 1371.25 | Steps 402 | Terminated True | Truncated False
+2026-03-02 16:59:16,045 [INFO] Step 0: reward=0.084, dist=5.15
+2026-03-02 16:59:23,076 [INFO] Step 200: reward=0.111, dist=4.44
+2026-03-02 16:59:29,499 [INFO] Step 400: reward=-2.222, dist=5.16
+2026-03-02 16:59:34,651 [INFO] Step 600: reward=-0.039, dist=6.70
+2026-03-02 16:59:36,567 [INFO] Performing PPO update at global step 1716224
+2026-03-02 16:59:36,954 [INFO] PPO losses — policy: -0.0019, value: 668.5184, entropy: 4.2242
+2026-03-02 16:59:36,958 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 16:59:42,669 [INFO] Step 800: reward=0.075, dist=8.19
+2026-03-02 16:59:48,829 [INFO] Episode 2142 COMPLETE | Reward -568.57 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 16:59:52,107 [INFO] Step 0: reward=-0.261, dist=3.24
+2026-03-02 16:59:58,723 [INFO] Step 200: reward=0.046, dist=4.75
+2026-03-02 17:00:04,972 [INFO] Step 400: reward=-1.751, dist=6.31
+2026-03-02 17:00:11,527 [INFO] Step 600: reward=0.094, dist=7.37
+2026-03-02 17:00:17,007 [INFO] Step 800: reward=0.047, dist=7.69
+2026-03-02 17:00:23,710 [INFO] Episode 2143 COMPLETE | Reward -754.57 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:00:27,934 [INFO] Step 0: reward=-0.005, dist=4.77
+2026-03-02 17:00:33,546 [INFO] Step 200: reward=0.033, dist=5.95
+2026-03-02 17:00:41,194 [INFO] Step 400: reward=0.004, dist=7.71
+2026-03-02 17:00:48,808 [INFO] Step 600: reward=0.051, dist=7.71
+2026-03-02 17:00:53,223 [INFO] Performing PPO update at global step 1718272
+2026-03-02 17:00:53,505 [INFO] PPO losses — policy: 0.0030, value: 83.0339, entropy: 4.2242
+2026-03-02 17:00:53,511 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:00:57,472 [INFO] Step 800: reward=0.125, dist=7.52
+2026-03-02 17:01:02,654 [INFO] Episode 2144 COMPLETE | Reward -548.32 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:01:05,838 [INFO] Step 0: reward=0.494, dist=6.12
+2026-03-02 17:01:12,401 [INFO] Step 200: reward=5.843, dist=4.04
+2026-03-02 17:01:19,195 [INFO] Step 400: reward=-1.280, dist=1.01
+2026-03-02 17:01:19,221 [INFO] Episode 2145 COMPLETE | Reward 1589.24 | Steps 403 | Terminated True | Truncated False
+2026-03-02 17:01:22,506 [INFO] Step 0: reward=0.094, dist=7.55
+2026-03-02 17:01:27,474 [INFO] Step 200: reward=6.416, dist=6.14
+2026-03-02 17:01:33,326 [INFO] Step 400: reward=-5.974, dist=4.51
+2026-03-02 17:01:39,997 [INFO] Step 600: reward=0.725, dist=1.50
+2026-03-02 17:01:41,081 [INFO] Episode 2146 COMPLETE | Reward 1851.42 | Steps 622 | Terminated True | Truncated False
+2026-03-02 17:01:45,388 [INFO] Step 0: reward=-0.222, dist=2.25
+2026-03-02 17:01:49,920 [INFO] Step 200: reward=-2.206, dist=1.27
+2026-03-02 17:01:51,525 [INFO] Episode 2147 COMPLETE | Reward -18.35 | Steps 258 | Terminated True | Truncated False
+2026-03-02 17:01:55,655 [INFO] Step 0: reward=0.094, dist=5.28
+2026-03-02 17:01:59,860 [INFO] Policy action (normalized): v = +0.981, w = -0.957 | Cmd_vel (scaled): v = +0.981 m/s, w = -0.957 rad/s
+2026-03-02 17:02:00,519 [INFO] Step 200: reward=6.170, dist=3.56
+2026-03-02 17:02:05,753 [INFO] Episode 2148 COMPLETE | Reward 1285.51 | Steps 339 | Terminated True | Truncated False
+2026-03-02 17:02:10,845 [INFO] Step 0: reward=-0.810, dist=5.77
+2026-03-02 17:02:15,213 [INFO] Performing PPO update at global step 1720320
+2026-03-02 17:02:15,499 [INFO] PPO losses — policy: 0.0585, value: 2482.3715, entropy: 4.2242
+2026-03-02 17:02:15,505 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:02:16,929 [INFO] Step 200: reward=0.090, dist=7.66
+2026-03-02 17:02:23,057 [INFO] Step 400: reward=-0.090, dist=9.24
+2026-03-02 17:02:29,259 [INFO] Step 600: reward=-1.958, dist=9.85
+2026-03-02 17:02:34,658 [INFO] Step 800: reward=0.089, dist=9.01
+2026-03-02 17:02:40,690 [INFO] Episode 2149 COMPLETE | Reward -110.74 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:02:43,055 [INFO] Step 0: reward=-0.205, dist=2.70
+2026-03-02 17:02:49,352 [INFO] Step 200: reward=-0.293, dist=4.00
+2026-03-02 17:02:55,753 [INFO] Step 400: reward=0.093, dist=4.96
+2026-03-02 17:03:00,660 [INFO] Step 600: reward=-0.095, dist=5.67
+2026-03-02 17:03:05,878 [INFO] Step 800: reward=-2.005, dist=5.71
+2026-03-02 17:03:12,834 [INFO] Episode 2150 COMPLETE | Reward -558.37 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:03:12,856 [INFO] Checkpoint saved: checkpoints/ppo_ep_02150.pt
+2026-03-02 17:03:15,980 [INFO] Step 0: reward=-0.005, dist=6.74
+2026-03-02 17:03:23,278 [INFO] Performing PPO update at global step 1722368
+2026-03-02 17:03:23,667 [INFO] PPO losses — policy: 0.0071, value: 315.3798, entropy: 4.2242
+2026-03-02 17:03:23,674 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:03:23,817 [INFO] Step 200: reward=0.101, dist=7.33
+2026-03-02 17:03:29,592 [INFO] Step 400: reward=0.172, dist=6.32
+2026-03-02 17:03:36,677 [INFO] Step 600: reward=6.297, dist=3.78
+2026-03-02 17:03:42,597 [INFO] Episode 2151 COMPLETE | Reward 1167.86 | Steps 768 | Terminated True | Truncated False
+2026-03-02 17:03:45,810 [INFO] Step 0: reward=-0.226, dist=2.66
+2026-03-02 17:03:51,120 [INFO] Step 200: reward=-0.494, dist=4.60
+2026-03-02 17:03:57,752 [INFO] Step 400: reward=-2.489, dist=6.53
+2026-03-02 17:04:04,828 [INFO] Step 600: reward=0.091, dist=7.48
+2026-03-02 17:04:10,650 [INFO] Step 800: reward=0.091, dist=6.47
+2026-03-02 17:04:16,779 [INFO] Episode 2152 COMPLETE | Reward -289.68 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:04:19,844 [INFO] Step 0: reward=-0.207, dist=2.64
+2026-03-02 17:04:27,029 [INFO] Step 200: reward=-2.205, dist=2.63
+2026-03-02 17:04:33,790 [INFO] Step 400: reward=-0.224, dist=2.57
+2026-03-02 17:04:35,888 [INFO] Performing PPO update at global step 1724416
+2026-03-02 17:04:36,295 [INFO] PPO losses — policy: 0.0138, value: 1033.3671, entropy: 4.2242
+2026-03-02 17:04:36,303 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:04:40,447 [INFO] Step 600: reward=-0.118, dist=2.36
+2026-03-02 17:04:47,433 [INFO] Episode 2153 COMPLETE | Reward -193.10 | Steps 775 | Terminated True | Truncated False
+2026-03-02 17:04:49,769 [INFO] Step 0: reward=-0.248, dist=3.90
+2026-03-02 17:04:55,446 [INFO] Step 200: reward=-1.474, dist=1.50
+2026-03-02 17:04:56,513 [INFO] Episode 2154 COMPLETE | Reward 507.37 | Steps 229 | Terminated True | Truncated False
+2026-03-02 17:04:58,928 [INFO] Step 0: reward=0.052, dist=7.47
+2026-03-02 17:05:06,530 [INFO] Step 200: reward=-0.004, dist=8.31
+2026-03-02 17:05:13,530 [INFO] Step 400: reward=-1.816, dist=7.32
+2026-03-02 17:05:18,876 [INFO] Step 600: reward=-4.073, dist=6.11
+2026-03-02 17:05:24,329 [INFO] Step 800: reward=5.922, dist=3.94
+2026-03-02 17:05:29,525 [INFO] Episode 2155 COMPLETE | Reward 1556.93 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:05:31,841 [INFO] Step 0: reward=-0.169, dist=6.99
+2026-03-02 17:05:37,848 [INFO] Step 200: reward=-2.005, dist=8.89
+2026-03-02 17:05:46,809 [INFO] Step 400: reward=0.736, dist=7.69
+2026-03-02 17:05:51,614 [INFO] Performing PPO update at global step 1726464
+2026-03-02 17:05:52,001 [INFO] PPO losses — policy: 0.0384, value: 1981.8168, entropy: 4.2242
+2026-03-02 17:05:52,008 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:05:54,556 [INFO] Step 600: reward=0.707, dist=5.12
+2026-03-02 17:06:00,772 [INFO] Step 800: reward=6.307, dist=2.17
+2026-03-02 17:06:03,191 [INFO] Episode 2156 COMPLETE | Reward 1818.53 | Steps 860 | Terminated True | Truncated False
+2026-03-02 17:06:14,618 [INFO] Step 0: reward=0.095, dist=4.24
+2026-03-02 17:06:20,029 [INFO] Step 200: reward=0.220, dist=2.27
+2026-03-02 17:06:25,729 [INFO] Step 400: reward=-0.328, dist=2.10
+2026-03-02 17:06:31,757 [INFO] Step 600: reward=0.128, dist=4.18
+2026-03-02 17:06:38,041 [INFO] Step 800: reward=-1.387, dist=6.74
+2026-03-02 17:06:43,098 [INFO] Episode 2157 COMPLETE | Reward -493.66 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:06:45,805 [INFO] Step 0: reward=0.092, dist=5.91
+2026-03-02 17:06:51,488 [INFO] Step 200: reward=0.073, dist=7.10
+2026-03-02 17:06:59,887 [INFO] Step 400: reward=-1.225, dist=8.84
+2026-03-02 17:07:06,363 [INFO] Step 600: reward=-1.942, dist=7.30
+2026-03-02 17:07:09,542 [INFO] Performing PPO update at global step 1728512
+2026-03-02 17:07:09,813 [INFO] PPO losses — policy: -0.0013, value: 930.0573, entropy: 4.2242
+2026-03-02 17:07:09,818 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:07:12,557 [INFO] Step 800: reward=6.014, dist=5.33
+2026-03-02 17:07:17,507 [INFO] Episode 2158 COMPLETE | Reward 1414.69 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:07:22,021 [INFO] Step 0: reward=0.070, dist=6.79
+2026-03-02 17:07:28,398 [INFO] Step 200: reward=-0.140, dist=8.24
+2026-03-02 17:07:33,949 [INFO] Step 400: reward=-0.845, dist=9.65
+2026-03-02 17:07:42,300 [INFO] Step 600: reward=0.605, dist=8.46
+2026-03-02 17:07:49,026 [INFO] Step 800: reward=-0.005, dist=6.88
+2026-03-02 17:07:55,564 [INFO] Episode 2159 COMPLETE | Reward -145.81 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:07:58,697 [INFO] Step 0: reward=-0.242, dist=2.24
+2026-03-02 17:08:03,633 [INFO] Policy action (normalized): v = +0.999, w = -0.074 | Cmd_vel (scaled): v = +0.999 m/s, w = -0.074 rad/s
+2026-03-02 17:08:03,673 [INFO] Step 200: reward=-4.144, dist=2.55
+2026-03-02 17:08:09,418 [INFO] Step 400: reward=-0.479, dist=4.86
+2026-03-02 17:08:14,401 [INFO] Step 600: reward=0.106, dist=5.39
+2026-03-02 17:08:21,020 [INFO] Performing PPO update at global step 1730560
+2026-03-02 17:08:21,293 [INFO] PPO losses — policy: 0.0121, value: 1819.8319, entropy: 4.2242
+2026-03-02 17:08:21,298 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:08:22,480 [INFO] Step 800: reward=0.754, dist=2.45
+2026-03-02 17:08:25,586 [INFO] Episode 2160 COMPLETE | Reward 448.58 | Steps 886 | Terminated True | Truncated False
+2026-03-02 17:08:25,613 [INFO] Checkpoint saved: checkpoints/ppo_ep_02160.pt
+2026-03-02 17:08:27,861 [INFO] Step 0: reward=0.069, dist=7.82
+2026-03-02 17:08:33,512 [INFO] Step 200: reward=0.072, dist=7.86
+2026-03-02 17:08:40,156 [INFO] Step 400: reward=-0.293, dist=10.24
+2026-03-02 17:08:46,712 [INFO] Step 600: reward=0.747, dist=10.01
+2026-03-02 17:08:51,932 [INFO] Step 800: reward=0.080, dist=8.16
+2026-03-02 17:08:57,871 [INFO] Episode 2161 COMPLETE | Reward -323.21 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:09:00,997 [INFO] Step 0: reward=0.095, dist=7.10
+2026-03-02 17:09:07,746 [INFO] Step 200: reward=-1.736, dist=7.33
+2026-03-02 17:09:14,618 [INFO] Step 400: reward=6.015, dist=5.13
+2026-03-02 17:09:21,249 [INFO] Step 600: reward=5.777, dist=2.18
+2026-03-02 17:09:23,953 [INFO] Episode 2162 COMPLETE | Reward 1822.18 | Steps 696 | Terminated True | Truncated False
+2026-03-02 17:09:26,143 [INFO] Step 0: reward=-0.205, dist=3.95
+2026-03-02 17:09:32,820 [INFO] Step 200: reward=0.132, dist=4.48
+2026-03-02 17:09:33,342 [INFO] Performing PPO update at global step 1732608
+2026-03-02 17:09:33,631 [INFO] PPO losses — policy: 0.0093, value: 1110.8034, entropy: 4.2242
+2026-03-02 17:09:33,636 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:09:39,236 [INFO] Step 400: reward=4.164, dist=2.89
+2026-03-02 17:09:43,203 [INFO] Episode 2163 COMPLETE | Reward 462.27 | Steps 513 | Terminated True | Truncated False
+2026-03-02 17:10:08,421 [INFO] Step 0: reward=-100.000, dist=5016.93
+2026-03-02 17:10:08,422 [INFO] Episode 2164 COMPLETE | Reward -100.00 | Steps 1 | Terminated False | Truncated True
+2026-03-02 17:10:10,773 [INFO] Step 0: reward=0.095, dist=9.72
+2026-03-02 17:10:15,915 [INFO] Step 200: reward=0.225, dist=32.81
+2026-03-02 17:10:20,886 [INFO] Step 400: reward=0.095, dist=28.70
+2026-03-02 17:10:28,047 [INFO] Step 600: reward=0.054, dist=29.09
+2026-03-02 17:10:33,171 [INFO] Step 800: reward=0.125, dist=28.08
+2026-03-02 17:10:39,568 [INFO] Episode 2165 COMPLETE | Reward -461.68 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:10:42,766 [INFO] Step 0: reward=0.089, dist=7.17
+2026-03-02 17:10:51,257 [INFO] Step 200: reward=0.710, dist=5.66
+2026-03-02 17:10:57,465 [INFO] Step 400: reward=5.925, dist=3.10
+2026-03-02 17:11:02,012 [INFO] Episode 2166 COMPLETE | Reward 1474.07 | Steps 556 | Terminated True | Truncated False
+2026-03-02 17:11:04,221 [INFO] Step 0: reward=5.618, dist=7.22
+2026-03-02 17:11:10,968 [INFO] Performing PPO update at global step 1734656
+2026-03-02 17:11:11,256 [INFO] PPO losses — policy: 0.0523, value: 1911.0653, entropy: 4.2242
+2026-03-02 17:11:11,261 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:11:11,276 [INFO] Step 200: reward=-1.446, dist=4.06
+2026-03-02 17:11:17,123 [INFO] Step 400: reward=0.516, dist=1.15
+2026-03-02 17:11:17,529 [INFO] Episode 2167 COMPLETE | Reward 1223.57 | Steps 412 | Terminated True | Truncated False
+2026-03-02 17:11:21,740 [INFO] Step 0: reward=-0.005, dist=4.13
+2026-03-02 17:11:28,432 [INFO] Step 200: reward=0.034, dist=3.08
+2026-03-02 17:11:33,141 [INFO] Episode 2168 COMPLETE | Reward 194.26 | Steps 325 | Terminated True | Truncated False
+2026-03-02 17:11:36,315 [INFO] Step 0: reward=-0.005, dist=5.35
+2026-03-02 17:11:41,515 [INFO] Step 200: reward=-1.938, dist=7.06
+2026-03-02 17:11:47,938 [INFO] Step 400: reward=0.148, dist=8.60
+2026-03-02 17:11:54,139 [INFO] Step 600: reward=6.172, dist=6.89
+2026-03-02 17:12:01,950 [INFO] Step 800: reward=6.151, dist=3.53
+2026-03-02 17:12:06,754 [INFO] Episode 2169 COMPLETE | Reward 1269.22 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:12:10,241 [INFO] Step 0: reward=0.094, dist=7.06
+2026-03-02 17:12:16,028 [INFO] Step 200: reward=0.604, dist=4.97
+2026-03-02 17:12:22,911 [INFO] Step 400: reward=0.680, dist=1.72
+2026-03-02 17:12:24,503 [INFO] Episode 2170 COMPLETE | Reward 1338.31 | Steps 457 | Terminated True | Truncated False
+2026-03-02 17:12:24,533 [INFO] Checkpoint saved: checkpoints/ppo_ep_02170.pt
+2026-03-02 17:12:28,925 [INFO] Step 0: reward=-0.206, dist=3.75
+2026-03-02 17:12:29,728 [INFO] Performing PPO update at global step 1736704
+2026-03-02 17:12:30,007 [INFO] PPO losses — policy: 0.0045, value: 2071.1049, entropy: 4.2242
+2026-03-02 17:12:30,013 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:12:34,188 [INFO] Step 200: reward=-1.810, dist=5.39
+2026-03-02 17:12:38,456 [INFO] Step 400: reward=-1.549, dist=5.71
+2026-03-02 17:12:45,262 [INFO] Step 600: reward=0.559, dist=4.13
+2026-03-02 17:12:51,569 [INFO] Step 800: reward=-1.510, dist=1.27
+2026-03-02 17:12:52,150 [INFO] Episode 2171 COMPLETE | Reward 89.52 | Steps 816 | Terminated True | Truncated False
+2026-03-02 17:12:54,402 [INFO] Step 0: reward=0.070, dist=6.49
+2026-03-02 17:13:00,500 [INFO] Step 200: reward=0.021, dist=8.49
+2026-03-02 17:13:05,882 [INFO] Step 400: reward=-2.206, dist=9.05
+2026-03-02 17:13:13,630 [INFO] Step 600: reward=-4.179, dist=7.55
+2026-03-02 17:13:19,759 [INFO] Step 800: reward=0.565, dist=5.15
+2026-03-02 17:13:28,071 [INFO] Episode 2172 COMPLETE | Reward 1229.93 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:13:30,182 [INFO] Step 0: reward=-0.248, dist=3.32
+2026-03-02 17:13:36,681 [INFO] Step 200: reward=-0.005, dist=4.92
+2026-03-02 17:13:40,129 [INFO] Performing PPO update at global step 1738752
+2026-03-02 17:13:40,413 [INFO] PPO losses — policy: -0.0130, value: 1290.8835, entropy: 4.2242
+2026-03-02 17:13:40,418 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:13:43,183 [INFO] Step 400: reward=0.089, dist=4.44
+2026-03-02 17:13:50,161 [INFO] Step 600: reward=0.676, dist=1.59
+2026-03-02 17:13:51,499 [INFO] Episode 2173 COMPLETE | Reward 275.70 | Steps 642 | Terminated True | Truncated False
+2026-03-02 17:13:56,671 [INFO] Step 0: reward=1.829, dist=2.29
+2026-03-02 17:13:59,592 [INFO] Episode 2174 COMPLETE | Reward 330.72 | Steps 95 | Terminated True | Truncated False
+2026-03-02 17:14:02,770 [INFO] Step 0: reward=0.095, dist=4.42
+2026-03-02 17:14:09,422 [INFO] Step 200: reward=0.502, dist=1.52
+2026-03-02 17:14:10,613 [INFO] Episode 2175 COMPLETE | Reward 626.39 | Steps 236 | Terminated True | Truncated False
+2026-03-02 17:14:12,916 [INFO] Step 0: reward=-0.237, dist=3.66
+2026-03-02 17:14:18,993 [INFO] Step 200: reward=0.069, dist=5.25
+2026-03-02 17:14:24,495 [INFO] Step 400: reward=-1.905, dist=6.07
+2026-03-02 17:14:29,819 [INFO] Policy action (normalized): v = +0.325, w = +0.181 | Cmd_vel (scaled): v = +0.325 m/s, w = +0.181 rad/s
+2026-03-02 17:14:31,519 [INFO] Step 600: reward=0.485, dist=5.11
+2026-03-02 17:14:38,609 [INFO] Step 800: reward=0.668, dist=1.83
+2026-03-02 17:14:40,376 [INFO] Episode 2176 COMPLETE | Reward 593.26 | Steps 851 | Terminated True | Truncated False
+2026-03-02 17:14:44,533 [INFO] Step 0: reward=-0.374, dist=7.87
+2026-03-02 17:14:51,498 [INFO] Step 200: reward=-3.684, dist=10.05
+2026-03-02 17:14:56,209 [INFO] Step 400: reward=0.115, dist=10.54
+2026-03-02 17:14:58,653 [INFO] Performing PPO update at global step 1740800
+2026-03-02 17:14:58,960 [INFO] PPO losses — policy: 0.0169, value: 1341.0410, entropy: 4.2242
+2026-03-02 17:14:58,968 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:15:02,507 [INFO] Step 600: reward=0.708, dist=8.95
+2026-03-02 17:15:09,317 [INFO] Step 800: reward=-1.976, dist=8.02
+2026-03-02 17:15:15,383 [INFO] Episode 2177 COMPLETE | Reward -429.56 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:15:18,895 [INFO] Step 0: reward=-1.684, dist=6.72
+2026-03-02 17:15:26,332 [INFO] Step 200: reward=0.080, dist=8.74
+2026-03-02 17:15:33,938 [INFO] Step 400: reward=0.072, dist=8.11
+2026-03-02 17:15:41,345 [INFO] Step 600: reward=-3.313, dist=5.31
+2026-03-02 17:15:47,812 [INFO] Step 800: reward=5.942, dist=2.51
+2026-03-02 17:15:51,037 [INFO] Episode 2178 COMPLETE | Reward 1567.81 | Steps 895 | Terminated True | Truncated False
+2026-03-02 17:15:54,981 [INFO] Step 0: reward=0.037, dist=4.97
+2026-03-02 17:16:00,871 [INFO] Step 200: reward=-0.164, dist=6.70
+2026-03-02 17:16:07,310 [INFO] Step 400: reward=0.095, dist=7.78
+2026-03-02 17:16:15,670 [INFO] Step 600: reward=6.095, dist=5.51
+2026-03-02 17:16:17,376 [INFO] Performing PPO update at global step 1742848
+2026-03-02 17:16:17,791 [INFO] PPO losses — policy: -0.0025, value: 1350.7109, entropy: 4.2242
+2026-03-02 17:16:17,798 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:16:21,829 [INFO] Step 800: reward=3.621, dist=2.66
+2026-03-02 17:16:25,287 [INFO] Episode 2179 COMPLETE | Reward 1338.06 | Steps 895 | Terminated True | Truncated False
+2026-03-02 17:16:28,475 [INFO] Step 0: reward=-0.305, dist=2.81
+2026-03-02 17:16:32,972 [INFO] Episode 2180 COMPLETE | Reward 277.60 | Steps 102 | Terminated True | Truncated False
+2026-03-02 17:16:32,995 [INFO] Checkpoint saved: checkpoints/ppo_ep_02180.pt
+2026-03-02 17:16:35,182 [INFO] Step 0: reward=-1.940, dist=2.94
+2026-03-02 17:16:41,089 [INFO] Step 200: reward=-2.097, dist=4.34
+2026-03-02 17:16:49,370 [INFO] Step 400: reward=0.136, dist=5.32
+2026-03-02 17:16:56,769 [INFO] Step 600: reward=6.165, dist=2.71
+2026-03-02 17:17:00,358 [INFO] Episode 2181 COMPLETE | Reward 527.70 | Steps 717 | Terminated True | Truncated False
+2026-03-02 17:17:04,532 [INFO] Step 0: reward=-0.205, dist=3.44
+2026-03-02 17:17:13,404 [INFO] Step 200: reward=0.094, dist=5.40
+2026-03-02 17:17:20,729 [INFO] Step 400: reward=0.094, dist=5.47
+2026-03-02 17:17:27,432 [INFO] Step 600: reward=5.621, dist=3.01
+2026-03-02 17:17:31,554 [INFO] Episode 2182 COMPLETE | Reward 736.99 | Steps 737 | Terminated True | Truncated False
+2026-03-02 17:17:43,016 [INFO] Step 0: reward=0.094, dist=4.24
+2026-03-02 17:17:49,738 [INFO] Step 200: reward=-2.088, dist=2.37
+2026-03-02 17:17:51,804 [INFO] Performing PPO update at global step 1744896
+2026-03-02 17:17:52,218 [INFO] PPO losses — policy: 0.0218, value: 1176.0938, entropy: 4.2242
+2026-03-02 17:17:52,224 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:17:57,482 [INFO] Step 400: reward=-2.205, dist=3.59
+2026-03-02 17:18:02,207 [INFO] Step 600: reward=-4.016, dist=4.86
+2026-03-02 17:18:08,290 [INFO] Step 800: reward=0.764, dist=4.05
+2026-03-02 17:18:14,219 [INFO] Episode 2183 COMPLETE | Reward 291.49 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:18:19,008 [INFO] Step 0: reward=0.095, dist=6.39
+2026-03-02 17:18:24,700 [INFO] Step 200: reward=0.093, dist=8.01
+2026-03-02 17:18:29,592 [INFO] Step 400: reward=0.088, dist=7.72
+2026-03-02 17:18:34,566 [INFO] Step 600: reward=6.090, dist=5.93
+2026-03-02 17:18:41,230 [INFO] Step 800: reward=5.785, dist=2.63
+2026-03-02 17:18:44,699 [INFO] Episode 2184 COMPLETE | Reward 1670.14 | Steps 907 | Terminated True | Truncated False
+2026-03-02 17:18:46,823 [INFO] Step 0: reward=-0.205, dist=2.22
+2026-03-02 17:18:54,169 [INFO] Step 200: reward=-0.210, dist=1.28
+2026-03-02 17:18:59,030 [INFO] Performing PPO update at global step 1746944
+2026-03-02 17:18:59,304 [INFO] PPO losses — policy: 0.0093, value: 1426.3471, entropy: 4.2242
+2026-03-02 17:18:59,309 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:18:59,319 [INFO] Step 400: reward=-0.305, dist=1.09
+2026-03-02 17:19:06,606 [INFO] Step 600: reward=-0.208, dist=1.51
+2026-03-02 17:19:12,424 [INFO] Step 800: reward=-0.151, dist=1.30
+2026-03-02 17:19:15,071 [INFO] Episode 2185 COMPLETE | Reward -377.58 | Steps 850 | Terminated True | Truncated False
+2026-03-02 17:19:19,240 [INFO] Step 0: reward=0.051, dist=6.74
+2026-03-02 17:19:26,741 [INFO] Step 200: reward=5.607, dist=5.07
+2026-03-02 17:19:32,402 [INFO] Step 400: reward=5.615, dist=2.39
+2026-03-02 17:19:35,458 [INFO] Episode 2186 COMPLETE | Reward 1609.35 | Steps 509 | Terminated True | Truncated False
+2026-03-02 17:19:39,539 [INFO] Step 0: reward=-0.211, dist=2.70
+2026-03-02 17:19:43,796 [INFO] Step 200: reward=-2.340, dist=3.84
+2026-03-02 17:19:50,014 [INFO] Step 400: reward=0.104, dist=4.24
+2026-03-02 17:19:57,419 [INFO] Step 600: reward=0.774, dist=1.33
+2026-03-02 17:19:58,156 [INFO] Episode 2187 COMPLETE | Reward 120.94 | Steps 620 | Terminated True | Truncated False
+2026-03-02 17:20:01,374 [INFO] Step 0: reward=0.095, dist=6.23
+2026-03-02 17:20:08,121 [INFO] Step 200: reward=0.049, dist=8.39
+2026-03-02 17:20:16,124 [INFO] Step 400: reward=0.290, dist=8.52
+2026-03-02 17:20:17,499 [INFO] Performing PPO update at global step 1748992
+2026-03-02 17:20:17,894 [INFO] PPO losses — policy: 0.0104, value: 1448.9591, entropy: 4.2242
+2026-03-02 17:20:17,901 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:20:23,994 [INFO] Step 600: reward=6.267, dist=5.76
+2026-03-02 17:20:31,662 [INFO] Step 800: reward=0.696, dist=2.05
+2026-03-02 17:20:33,869 [INFO] Episode 2188 COMPLETE | Reward 1174.78 | Steps 864 | Terminated True | Truncated False
+2026-03-02 17:20:37,085 [INFO] Step 0: reward=-0.005, dist=5.19
+2026-03-02 17:20:44,907 [INFO] Step 200: reward=6.164, dist=4.06
+2026-03-02 17:20:50,962 [INFO] Step 400: reward=0.634, dist=1.16
+2026-03-02 17:20:51,457 [INFO] Episode 2189 COMPLETE | Reward 1154.11 | Steps 419 | Terminated True | Truncated False
+2026-03-02 17:20:55,496 [INFO] Step 0: reward=0.094, dist=4.91
+2026-03-02 17:21:01,131 [INFO] Policy action (normalized): v = +0.999, w = +0.267 | Cmd_vel (scaled): v = +0.999 m/s, w = +0.267 rad/s
+2026-03-02 17:21:01,484 [INFO] Step 200: reward=0.350, dist=4.72
+2026-03-02 17:21:06,986 [INFO] Step 400: reward=0.873, dist=2.25
+2026-03-02 17:21:09,852 [INFO] Episode 2190 COMPLETE | Reward 706.35 | Steps 507 | Terminated True | Truncated False
+2026-03-02 17:21:09,880 [INFO] Checkpoint saved: checkpoints/ppo_ep_02190.pt
+2026-03-02 17:21:13,074 [INFO] Step 0: reward=0.091, dist=5.03
+2026-03-02 17:21:19,366 [INFO] Step 200: reward=0.043, dist=6.13
+2026-03-02 17:21:27,113 [INFO] Step 400: reward=5.801, dist=3.19
+2026-03-02 17:21:31,849 [INFO] Episode 2191 COMPLETE | Reward 778.01 | Steps 527 | Terminated True | Truncated False
+2026-03-02 17:21:33,884 [INFO] Step 0: reward=-0.005, dist=6.51
+2026-03-02 17:21:39,297 [INFO] Performing PPO update at global step 1751040
+2026-03-02 17:21:39,589 [INFO] PPO losses — policy: 0.0649, value: 2369.6060, entropy: 4.2242
+2026-03-02 17:21:39,595 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:21:39,603 [INFO] Step 200: reward=6.163, dist=4.25
+2026-03-02 17:21:46,094 [INFO] Episode 2192 COMPLETE | Reward 1047.72 | Steps 375 | Terminated True | Truncated False
+2026-03-02 17:21:50,170 [INFO] Step 0: reward=0.091, dist=7.82
+2026-03-02 17:21:56,321 [INFO] Step 200: reward=5.795, dist=5.03
+2026-03-02 17:22:03,603 [INFO] Step 400: reward=0.534, dist=1.46
+2026-03-02 17:22:04,663 [INFO] Episode 2193 COMPLETE | Reward 1183.38 | Steps 427 | Terminated True | Truncated False
+2026-03-02 17:22:07,706 [INFO] Step 0: reward=-0.305, dist=2.17
+2026-03-02 17:22:16,459 [INFO] Step 200: reward=-0.040, dist=5.34
+2026-03-02 17:22:23,302 [INFO] Step 400: reward=0.095, dist=4.84
+2026-03-02 17:22:28,273 [INFO] Step 600: reward=3.622, dist=2.63
+2026-03-02 17:22:31,657 [INFO] Episode 2194 COMPLETE | Reward 872.63 | Steps 706 | Terminated True | Truncated False
+2026-03-02 17:22:34,934 [INFO] Step 0: reward=-0.206, dist=2.04
+2026-03-02 17:22:41,034 [INFO] Step 200: reward=-0.465, dist=3.13
+2026-03-02 17:22:47,401 [INFO] Step 400: reward=-1.881, dist=4.20
+2026-03-02 17:22:53,785 [INFO] Step 600: reward=1.083, dist=2.25
+2026-03-02 17:22:56,522 [INFO] Episode 2195 COMPLETE | Reward 86.62 | Steps 706 | Terminated True | Truncated False
+2026-03-02 17:23:01,143 [INFO] Step 0: reward=-0.205, dist=2.73
+2026-03-02 17:23:02,638 [INFO] Performing PPO update at global step 1753088
+2026-03-02 17:23:02,929 [INFO] PPO losses — policy: 0.0108, value: 1337.1603, entropy: 4.2242
+2026-03-02 17:23:02,935 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:23:08,021 [INFO] Step 200: reward=0.074, dist=4.87
+2026-03-02 17:23:14,061 [INFO] Step 400: reward=-1.934, dist=5.20
+2026-03-02 17:23:19,523 [INFO] Step 600: reward=6.147, dist=2.76
+2026-03-02 17:23:23,272 [INFO] Episode 2196 COMPLETE | Reward 1171.25 | Steps 744 | Terminated True | Truncated False
+2026-03-02 17:23:34,913 [INFO] Step 0: reward=0.095, dist=4.24
+2026-03-02 17:23:40,288 [INFO] Step 200: reward=-2.240, dist=2.31
+2026-03-02 17:23:46,080 [INFO] Step 400: reward=-2.356, dist=3.67
+2026-03-02 17:23:51,512 [INFO] Step 600: reward=-0.201, dist=5.17
+2026-03-02 17:23:57,465 [INFO] Step 800: reward=-1.905, dist=4.16
+2026-03-02 17:24:06,523 [INFO] Episode 2197 COMPLETE | Reward -333.44 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:24:10,254 [INFO] Step 0: reward=-0.936, dist=2.58
+2026-03-02 17:24:17,202 [INFO] Step 200: reward=0.079, dist=4.40
+2026-03-02 17:24:21,346 [INFO] Performing PPO update at global step 1755136
+2026-03-02 17:24:21,641 [INFO] PPO losses — policy: 0.0326, value: 691.3617, entropy: 4.2242
+2026-03-02 17:24:21,646 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:24:23,478 [INFO] Step 400: reward=4.147, dist=2.76
+2026-03-02 17:24:27,353 [INFO] Episode 2198 COMPLETE | Reward 625.30 | Steps 542 | Terminated True | Truncated False
+2026-03-02 17:24:30,547 [INFO] Step 0: reward=-0.212, dist=3.17
+2026-03-02 17:24:36,420 [INFO] Episode 2199 COMPLETE | Reward 290.64 | Steps 162 | Terminated True | Truncated False
+2026-03-02 17:24:39,575 [INFO] Step 0: reward=0.084, dist=5.56
+2026-03-02 17:24:45,142 [INFO] Step 200: reward=0.091, dist=6.66
+2026-03-02 17:24:49,373 [INFO] Step 400: reward=0.142, dist=6.11
+2026-03-02 17:24:57,691 [INFO] Step 600: reward=0.922, dist=2.14
+2026-03-02 17:25:00,211 [INFO] Episode 2200 COMPLETE | Reward 965.03 | Steps 685 | Terminated True | Truncated False
+2026-03-02 17:25:00,230 [INFO] Checkpoint saved: checkpoints/ppo_ep_02200.pt
+2026-03-02 17:25:03,971 [INFO] Step 0: reward=0.088, dist=5.62
+2026-03-02 17:25:11,104 [INFO] Step 200: reward=0.900, dist=2.51
+2026-03-02 17:25:14,249 [INFO] Episode 2201 COMPLETE | Reward 1293.63 | Steps 301 | Terminated True | Truncated False
+2026-03-02 17:25:17,466 [INFO] Step 0: reward=0.092, dist=6.97
+2026-03-02 17:25:25,920 [INFO] Step 200: reward=6.170, dist=3.62
+2026-03-02 17:25:31,494 [INFO] Episode 2202 COMPLETE | Reward 1645.34 | Steps 362 | Terminated True | Truncated False
+2026-03-02 17:25:33,977 [INFO] Step 0: reward=0.057, dist=6.72
+2026-03-02 17:25:39,987 [INFO] Step 200: reward=0.095, dist=6.86
+2026-03-02 17:25:43,334 [INFO] Performing PPO update at global step 1757184
+2026-03-02 17:25:43,618 [INFO] PPO losses — policy: 0.0331, value: 2162.0091, entropy: 4.2242
+2026-03-02 17:25:43,624 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:25:46,617 [INFO] Step 400: reward=5.796, dist=4.42
+2026-03-02 17:25:53,707 [INFO] Episode 2203 COMPLETE | Reward 891.94 | Steps 578 | Terminated True | Truncated False
+2026-03-02 17:25:56,742 [INFO] Step 0: reward=0.094, dist=6.76
+2026-03-02 17:26:03,904 [INFO] Step 200: reward=0.446, dist=6.16
+2026-03-02 17:26:10,897 [INFO] Step 400: reward=5.754, dist=3.76
+2026-03-02 17:26:16,470 [INFO] Episode 2204 COMPLETE | Reward 1182.64 | Steps 546 | Terminated True | Truncated False
+2026-03-02 17:26:19,103 [INFO] Step 0: reward=-0.305, dist=3.36
+2026-03-02 17:26:26,120 [INFO] Step 200: reward=-2.796, dist=5.23
+2026-03-02 17:26:34,148 [INFO] Step 400: reward=0.667, dist=5.00
+2026-03-02 17:26:38,541 [INFO] Step 600: reward=3.966, dist=3.45
+2026-03-02 17:26:43,693 [INFO] Episode 2205 COMPLETE | Reward 916.05 | Steps 776 | Terminated True | Truncated False
+2026-03-02 17:26:47,718 [INFO] Step 0: reward=0.094, dist=4.24
+2026-03-02 17:26:54,011 [INFO] Step 200: reward=-0.578, dist=6.29
+2026-03-02 17:26:59,042 [INFO] Step 400: reward=-1.909, dist=6.21
+2026-03-02 17:27:01,311 [INFO] Performing PPO update at global step 1759232
+2026-03-02 17:27:01,623 [INFO] PPO losses — policy: 0.0107, value: 1146.1826, entropy: 4.2242
+2026-03-02 17:27:01,628 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:27:05,933 [INFO] Step 600: reward=6.611, dist=3.59
+2026-03-02 17:27:11,154 [INFO] Episode 2206 COMPLETE | Reward 846.27 | Steps 729 | Terminated True | Truncated False
+2026-03-02 17:27:13,495 [INFO] Step 0: reward=0.095, dist=7.87
+2026-03-02 17:27:18,704 [INFO] Step 200: reward=-1.963, dist=9.14
+2026-03-02 17:27:24,357 [INFO] Step 400: reward=-1.907, dist=9.06
+2026-03-02 17:27:28,014 [INFO] Policy action (normalized): v = +0.614, w = +0.939 | Cmd_vel (scaled): v = +0.614 m/s, w = +0.939 rad/s
+2026-03-02 17:27:30,394 [INFO] Step 600: reward=5.559, dist=7.67
+2026-03-02 17:27:36,262 [INFO] Step 800: reward=3.626, dist=5.55
+2026-03-02 17:27:43,064 [INFO] Episode 2207 COMPLETE | Reward 808.91 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:27:46,185 [INFO] Step 0: reward=5.992, dist=2.43
+2026-03-02 17:27:49,202 [INFO] Episode 2208 COMPLETE | Reward 338.32 | Steps 86 | Terminated True | Truncated False
+2026-03-02 17:28:00,685 [INFO] Step 0: reward=0.095, dist=4.24
+2026-03-02 17:28:06,527 [INFO] Step 200: reward=-1.449, dist=2.34
+2026-03-02 17:28:13,919 [INFO] Step 400: reward=-1.986, dist=4.23
+2026-03-02 17:28:20,599 [INFO] Step 600: reward=0.091, dist=5.25
+2026-03-02 17:28:24,877 [INFO] Performing PPO update at global step 1761280
+2026-03-02 17:28:25,183 [INFO] PPO losses — policy: 0.0226, value: 1354.8069, entropy: 4.2242
+2026-03-02 17:28:25,190 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:28:28,278 [INFO] Step 800: reward=0.045, dist=6.61
+2026-03-02 17:28:34,048 [INFO] Episode 2209 COMPLETE | Reward -533.80 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:28:37,231 [INFO] Step 0: reward=0.095, dist=4.74
+2026-03-02 17:28:42,121 [INFO] Step 200: reward=0.094, dist=4.24
+2026-03-02 17:28:49,226 [INFO] Episode 2210 COMPLETE | Reward 580.83 | Steps 396 | Terminated True | Truncated False
+2026-03-02 17:28:49,249 [INFO] Checkpoint saved: checkpoints/ppo_ep_02210.pt
+2026-03-02 17:28:52,225 [INFO] Step 0: reward=-0.205, dist=2.97
+2026-03-02 17:28:57,310 [INFO] Episode 2211 COMPLETE | Reward 216.07 | Steps 197 | Terminated True | Truncated False
+2026-03-02 17:29:00,327 [INFO] Step 0: reward=0.081, dist=4.02
+2026-03-02 17:29:06,570 [INFO] Step 200: reward=0.095, dist=5.79
+2026-03-02 17:29:11,640 [INFO] Step 400: reward=-1.850, dist=5.71
+2026-03-02 17:29:17,792 [INFO] Step 600: reward=6.206, dist=4.29
+2026-03-02 17:29:24,558 [INFO] Episode 2212 COMPLETE | Reward 567.36 | Steps 791 | Terminated True | Truncated False
+2026-03-02 17:29:27,750 [INFO] Step 0: reward=-0.205, dist=3.94
+2026-03-02 17:29:33,472 [INFO] Step 200: reward=-2.269, dist=5.14
+2026-03-02 17:29:36,847 [INFO] Performing PPO update at global step 1763328
+2026-03-02 17:29:37,208 [INFO] PPO losses — policy: 0.0259, value: 791.6527, entropy: 4.2242
+2026-03-02 17:29:37,213 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:29:38,002 [INFO] Step 400: reward=-0.136, dist=6.13
+2026-03-02 17:29:42,621 [INFO] Step 600: reward=0.157, dist=6.23
+2026-03-02 17:29:49,646 [INFO] Step 800: reward=6.486, dist=3.79
+2026-03-02 17:29:54,852 [INFO] Episode 2213 COMPLETE | Reward 875.53 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:29:58,072 [INFO] Step 0: reward=-0.206, dist=3.50
+2026-03-02 17:30:05,553 [INFO] Step 200: reward=0.095, dist=5.49
+2026-03-02 17:30:12,603 [INFO] Step 400: reward=0.209, dist=5.35
+2026-03-02 17:30:18,143 [INFO] Step 600: reward=6.153, dist=2.95
+2026-03-02 17:30:22,450 [INFO] Episode 2214 COMPLETE | Reward 1106.72 | Steps 787 | Terminated True | Truncated False
+2026-03-02 17:30:24,832 [INFO] Step 0: reward=0.037, dist=6.48
+2026-03-02 17:30:31,085 [INFO] Step 200: reward=-1.961, dist=7.80
+2026-03-02 17:30:38,016 [INFO] Step 400: reward=0.094, dist=9.38
+2026-03-02 17:30:45,217 [INFO] Step 600: reward=5.611, dist=7.49
+2026-03-02 17:30:46,795 [INFO] Performing PPO update at global step 1765376
+2026-03-02 17:30:47,180 [INFO] PPO losses — policy: 0.0039, value: 1464.8535, entropy: 4.2242
+2026-03-02 17:30:47,185 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:30:51,547 [INFO] Step 800: reward=-1.905, dist=6.23
+2026-03-02 17:30:56,313 [INFO] Episode 2215 COMPLETE | Reward -373.92 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:30:59,385 [INFO] Step 0: reward=-1.926, dist=5.14
+2026-03-02 17:31:06,188 [INFO] Step 200: reward=6.154, dist=3.18
+2026-03-02 17:31:10,851 [INFO] Episode 2216 COMPLETE | Reward 599.63 | Steps 359 | Terminated True | Truncated False
+2026-03-02 17:31:14,062 [INFO] Step 0: reward=-5.658, dist=7.59
+2026-03-02 17:31:19,133 [INFO] Step 200: reward=6.077, dist=5.65
+2026-03-02 17:31:25,053 [INFO] Step 400: reward=6.305, dist=3.09
+2026-03-02 17:31:29,283 [INFO] Step 600: reward=1.016, dist=1.18
+2026-03-02 17:31:29,679 [INFO] Episode 2217 COMPLETE | Reward 1858.32 | Steps 609 | Terminated True | Truncated False
+2026-03-02 17:31:33,736 [INFO] Step 0: reward=0.095, dist=7.42
+2026-03-02 17:31:38,274 [INFO] Step 200: reward=-0.194, dist=8.68
+2026-03-02 17:31:42,453 [INFO] Step 400: reward=-1.918, dist=8.72
+2026-03-02 17:31:48,299 [INFO] Step 600: reward=0.681, dist=7.28
+2026-03-02 17:31:51,730 [INFO] Performing PPO update at global step 1767424
+2026-03-02 17:31:52,010 [INFO] PPO losses — policy: -0.0059, value: 1324.7800, entropy: 4.2242
+2026-03-02 17:31:52,015 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:31:54,444 [INFO] Step 800: reward=6.022, dist=5.46
+2026-03-02 17:32:00,015 [INFO] Episode 2218 COMPLETE | Reward 885.34 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:32:04,063 [INFO] Step 0: reward=0.080, dist=4.55
+2026-03-02 17:32:10,649 [INFO] Step 200: reward=-0.038, dist=3.72
+2026-03-02 17:32:16,423 [INFO] Episode 2219 COMPLETE | Reward 373.55 | Steps 336 | Terminated True | Truncated False
+2026-03-02 17:32:20,605 [INFO] Step 0: reward=-0.220, dist=3.53
+2026-03-02 17:32:25,829 [INFO] Step 200: reward=-1.749, dist=3.45
+2026-03-02 17:32:31,881 [INFO] Step 400: reward=0.094, dist=4.94
+2026-03-02 17:32:39,155 [INFO] Step 600: reward=0.100, dist=6.13
+2026-03-02 17:32:44,661 [INFO] Step 800: reward=0.116, dist=5.55
+2026-03-02 17:32:50,672 [INFO] Episode 2220 COMPLETE | Reward -495.93 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:32:50,691 [INFO] Checkpoint saved: checkpoints/ppo_ep_02220.pt
+2026-03-02 17:32:54,840 [INFO] Step 0: reward=-0.205, dist=2.65
+2026-03-02 17:33:00,775 [INFO] Step 200: reward=-0.309, dist=2.57
+2026-03-02 17:33:07,548 [INFO] Step 400: reward=0.095, dist=4.59
+2026-03-02 17:33:08,328 [INFO] Performing PPO update at global step 1769472
+2026-03-02 17:33:08,727 [INFO] PPO losses — policy: 0.0214, value: 1613.4434, entropy: 4.2242
+2026-03-02 17:33:08,734 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:33:13,397 [INFO] Step 600: reward=0.109, dist=5.31
+2026-03-02 17:33:19,272 [INFO] Step 800: reward=-1.778, dist=4.66
+2026-03-02 17:33:24,998 [INFO] Policy action (normalized): v = +1.000, w = +0.748 | Cmd_vel (scaled): v = +1.000 m/s, w = +0.748 rad/s
+2026-03-02 17:33:26,098 [INFO] Episode 2221 COMPLETE | Reward -552.61 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:33:28,168 [INFO] Step 0: reward=0.095, dist=5.73
+2026-03-02 17:33:34,119 [INFO] Step 200: reward=-0.014, dist=5.91
+2026-03-02 17:33:44,013 [INFO] Step 400: reward=0.090, dist=9.03
+2026-03-02 17:33:49,472 [INFO] Step 600: reward=0.629, dist=8.45
+2026-03-02 17:33:55,791 [INFO] Step 800: reward=5.605, dist=6.12
+2026-03-02 17:34:01,614 [INFO] Episode 2222 COMPLETE | Reward 821.60 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:34:04,193 [INFO] Step 0: reward=-0.718, dist=6.35
+2026-03-02 17:34:10,849 [INFO] Step 200: reward=5.622, dist=3.71
+2026-03-02 17:34:16,384 [INFO] Episode 2223 COMPLETE | Reward 902.56 | Steps 356 | Terminated True | Truncated False
+2026-03-02 17:34:20,763 [INFO] Step 0: reward=-0.206, dist=3.89
+2026-03-02 17:34:23,909 [INFO] Performing PPO update at global step 1771520
+2026-03-02 17:34:24,191 [INFO] PPO losses — policy: -0.0019, value: 1584.8580, entropy: 4.2242
+2026-03-02 17:34:24,199 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:34:26,743 [INFO] Step 200: reward=0.006, dist=3.22
+2026-03-02 17:34:31,993 [INFO] Episode 2224 COMPLETE | Reward 132.00 | Steps 318 | Terminated True | Truncated False
+2026-03-02 17:34:34,052 [INFO] Step 0: reward=-0.211, dist=3.52
+2026-03-02 17:34:39,732 [INFO] Episode 2225 COMPLETE | Reward 348.63 | Steps 163 | Terminated True | Truncated False
+2026-03-02 17:34:42,546 [INFO] Step 0: reward=-0.213, dist=2.43
+2026-03-02 17:34:49,195 [INFO] Step 200: reward=-0.254, dist=3.99
+2026-03-02 17:34:54,488 [INFO] Step 400: reward=0.094, dist=4.16
+2026-03-02 17:35:00,994 [INFO] Step 600: reward=0.898, dist=2.55
+2026-03-02 17:35:04,509 [INFO] Episode 2226 COMPLETE | Reward -104.51 | Steps 739 | Terminated True | Truncated False
+2026-03-02 17:35:08,828 [INFO] Step 0: reward=5.960, dist=5.09
+2026-03-02 17:35:14,964 [INFO] Step 200: reward=0.843, dist=2.13
+2026-03-02 17:35:17,498 [INFO] Episode 2227 COMPLETE | Reward 650.77 | Steps 302 | Terminated True | Truncated False
+2026-03-02 17:35:22,078 [INFO] Step 0: reward=-0.005, dist=5.01
+2026-03-02 17:35:27,651 [INFO] Step 200: reward=-0.173, dist=6.53
+2026-03-02 17:35:33,692 [INFO] Step 400: reward=0.091, dist=7.13
+2026-03-02 17:35:40,737 [INFO] Step 600: reward=6.144, dist=5.43
+2026-03-02 17:35:41,955 [INFO] Performing PPO update at global step 1773568
+2026-03-02 17:35:42,239 [INFO] PPO losses — policy: 0.0715, value: 933.0322, entropy: 4.2242
+2026-03-02 17:35:42,245 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:35:47,411 [INFO] Step 800: reward=0.737, dist=2.30
+2026-03-02 17:35:50,370 [INFO] Episode 2228 COMPLETE | Reward 979.56 | Steps 920 | Terminated True | Truncated False
+2026-03-02 17:35:53,547 [INFO] Step 0: reward=-0.305, dist=3.35
+2026-03-02 17:36:02,667 [INFO] Step 200: reward=0.048, dist=6.45
+2026-03-02 17:36:09,054 [INFO] Step 400: reward=0.145, dist=6.53
+2026-03-02 17:36:15,122 [INFO] Step 600: reward=6.314, dist=4.96
+2026-03-02 17:36:20,721 [INFO] Step 800: reward=5.782, dist=2.28
+2026-03-02 17:36:23,309 [INFO] Episode 2229 COMPLETE | Reward 1003.40 | Steps 871 | Terminated True | Truncated False
+2026-03-02 17:36:28,217 [INFO] Step 0: reward=-0.246, dist=2.86
+2026-03-02 17:36:33,127 [INFO] Step 200: reward=-0.236, dist=2.50
+2026-03-02 17:36:39,319 [INFO] Step 400: reward=-2.187, dist=1.39
+2026-03-02 17:36:41,533 [INFO] Episode 2230 COMPLETE | Reward -74.11 | Steps 492 | Terminated True | Truncated False
+2026-03-02 17:36:41,553 [INFO] Checkpoint saved: checkpoints/ppo_ep_02230.pt
+2026-03-02 17:36:46,398 [INFO] Step 0: reward=5.995, dist=2.90
+2026-03-02 17:36:50,590 [INFO] Episode 2231 COMPLETE | Reward 503.98 | Steps 162 | Terminated True | Truncated False
+2026-03-02 17:36:52,943 [INFO] Step 0: reward=-0.208, dist=3.99
+2026-03-02 17:36:59,783 [INFO] Step 200: reward=-0.022, dist=4.12
+2026-03-02 17:37:01,569 [INFO] Performing PPO update at global step 1775616
+2026-03-02 17:37:01,855 [INFO] PPO losses — policy: 0.0105, value: 995.9873, entropy: 4.2242
+2026-03-02 17:37:01,861 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:37:07,922 [INFO] Step 400: reward=-0.075, dist=6.82
+2026-03-02 17:37:14,508 [INFO] Step 600: reward=-0.005, dist=7.52
+2026-03-02 17:37:22,025 [INFO] Step 800: reward=6.145, dist=5.22
+2026-03-02 17:37:30,329 [INFO] Episode 2232 COMPLETE | Reward 978.48 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:37:34,188 [INFO] Step 0: reward=-1.536, dist=3.57
+2026-03-02 17:37:40,048 [INFO] Step 200: reward=0.089, dist=4.22
+2026-03-02 17:37:46,591 [INFO] Step 400: reward=1.068, dist=2.56
+2026-03-02 17:37:49,967 [INFO] Episode 2233 COMPLETE | Reward 272.62 | Steps 556 | Terminated True | Truncated False
+2026-03-02 17:37:54,993 [INFO] Step 0: reward=-0.208, dist=3.12
+2026-03-02 17:38:00,811 [INFO] Episode 2234 COMPLETE | Reward 347.40 | Steps 153 | Terminated True | Truncated False
+2026-03-02 17:38:03,995 [INFO] Step 0: reward=0.088, dist=6.96
+2026-03-02 17:38:10,114 [INFO] Step 200: reward=5.622, dist=4.38
+2026-03-02 17:38:16,497 [INFO] Step 400: reward=0.663, dist=1.31
+2026-03-02 17:38:17,152 [INFO] Episode 2235 COMPLETE | Reward 1664.01 | Steps 410 | Terminated True | Truncated False
+2026-03-02 17:38:19,356 [INFO] Step 0: reward=0.049, dist=8.00
+2026-03-02 17:38:26,252 [INFO] Performing PPO update at global step 1777664
+2026-03-02 17:38:26,520 [INFO] PPO losses — policy: 0.0095, value: 1739.2115, entropy: 4.2242
+2026-03-02 17:38:26,524 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:38:26,722 [INFO] Step 200: reward=0.093, dist=7.72
+2026-03-02 17:38:35,066 [INFO] Step 400: reward=-0.010, dist=10.43
+2026-03-02 17:38:41,089 [INFO] Step 600: reward=-1.834, dist=9.89
+2026-03-02 17:38:45,652 [INFO] Step 800: reward=-1.448, dist=8.74
+2026-03-02 17:38:51,785 [INFO] Episode 2236 COMPLETE | Reward 0.71 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:38:55,083 [INFO] Step 0: reward=-0.209, dist=2.32
+2026-03-02 17:39:02,702 [INFO] Step 200: reward=-0.205, dist=3.32
+2026-03-02 17:39:10,795 [INFO] Step 400: reward=-0.062, dist=5.16
+2026-03-02 17:39:18,486 [INFO] Step 600: reward=0.699, dist=4.32
+2026-03-02 17:39:25,134 [INFO] Step 800: reward=0.664, dist=1.23
+2026-03-02 17:39:25,692 [INFO] Episode 2237 COMPLETE | Reward 646.67 | Steps 806 | Terminated True | Truncated False
+2026-03-02 17:39:29,670 [INFO] Step 0: reward=-0.223, dist=3.60
+2026-03-02 17:39:35,498 [INFO] Step 200: reward=-2.231, dist=2.60
+2026-03-02 17:39:39,185 [INFO] Episode 2238 COMPLETE | Reward 270.91 | Steps 343 | Terminated True | Truncated False
+2026-03-02 17:39:43,328 [INFO] Step 0: reward=0.051, dist=4.60
+2026-03-02 17:39:45,566 [INFO] Performing PPO update at global step 1779712
+2026-03-02 17:39:45,918 [INFO] PPO losses — policy: 0.0694, value: 602.8321, entropy: 4.2242
+2026-03-02 17:39:45,924 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:39:49,676 [INFO] Step 200: reward=0.086, dist=6.15
+2026-03-02 17:39:55,514 [INFO] Policy action (normalized): v = -0.975, w = +0.144 | Cmd_vel (scaled): v = -0.975 m/s, w = +0.144 rad/s
+2026-03-02 17:39:56,162 [INFO] Step 400: reward=-1.634, dist=5.49
+2026-03-02 17:40:01,846 [INFO] Step 600: reward=6.300, dist=3.06
+2026-03-02 17:40:05,988 [INFO] Episode 2239 COMPLETE | Reward 807.05 | Steps 688 | Terminated True | Truncated False
+2026-03-02 17:40:10,101 [INFO] Step 0: reward=5.994, dist=7.48
+2026-03-02 17:40:16,617 [INFO] Step 200: reward=5.613, dist=4.58
+2026-03-02 17:40:21,959 [INFO] Step 400: reward=0.561, dist=2.07
+2026-03-02 17:40:24,184 [INFO] Episode 2240 COMPLETE | Reward 1941.30 | Steps 487 | Terminated True | Truncated False
+2026-03-02 17:40:24,205 [INFO] Checkpoint saved: checkpoints/ppo_ep_02240.pt
+2026-03-02 17:40:28,207 [INFO] Step 0: reward=-2.002, dist=6.83
+2026-03-02 17:40:36,186 [INFO] Step 200: reward=-0.014, dist=6.67
+2026-03-02 17:40:43,275 [INFO] Step 400: reward=0.066, dist=8.62
+2026-03-02 17:40:50,950 [INFO] Step 600: reward=0.727, dist=7.50
+2026-03-02 17:40:55,625 [INFO] Step 800: reward=6.446, dist=5.88
+2026-03-02 17:40:59,912 [INFO] Performing PPO update at global step 1781760
+2026-03-02 17:41:00,181 [INFO] PPO losses — policy: 0.1917, value: 1642.4050, entropy: 4.2242
+2026-03-02 17:41:00,186 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:41:02,265 [INFO] Episode 2241 COMPLETE | Reward 630.22 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:41:13,864 [INFO] Step 0: reward=0.038, dist=4.24
+2026-03-02 17:41:21,207 [INFO] Step 200: reward=-0.056, dist=2.38
+2026-03-02 17:41:27,138 [INFO] Step 400: reward=-0.250, dist=1.74
+2026-03-02 17:41:33,548 [INFO] Step 600: reward=-0.207, dist=3.64
+2026-03-02 17:41:39,011 [INFO] Step 800: reward=-0.179, dist=3.04
+2026-03-02 17:41:47,125 [INFO] Episode 2242 COMPLETE | Reward -728.79 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:41:49,208 [INFO] Step 0: reward=0.086, dist=5.73
+2026-03-02 17:41:57,894 [INFO] Step 200: reward=-2.085, dist=8.13
+2026-03-02 17:42:03,066 [INFO] Step 400: reward=0.097, dist=8.55
+2026-03-02 17:42:11,018 [INFO] Step 600: reward=0.070, dist=7.71
+2026-03-02 17:42:18,446 [INFO] Step 800: reward=-0.005, dist=5.62
+2026-03-02 17:42:25,930 [INFO] Episode 2243 COMPLETE | Reward -379.69 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:42:28,022 [INFO] Step 0: reward=0.088, dist=4.44
+2026-03-02 17:42:28,023 [INFO] Performing PPO update at global step 1783808
+2026-03-02 17:42:28,432 [INFO] PPO losses — policy: 0.0130, value: 418.4174, entropy: 4.2242
+2026-03-02 17:42:28,439 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:42:35,148 [INFO] Step 200: reward=-0.207, dist=1.64
+2026-03-02 17:42:44,074 [INFO] Step 400: reward=-0.767, dist=3.91
+2026-03-02 17:42:53,786 [INFO] Step 600: reward=-0.265, dist=6.65
+2026-03-02 17:43:00,479 [INFO] Step 800: reward=-1.905, dist=7.07
+2026-03-02 17:43:06,425 [INFO] Episode 2244 COMPLETE | Reward -64.22 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:43:10,039 [INFO] Step 0: reward=-0.005, dist=7.72
+2026-03-02 17:43:16,983 [INFO] Step 200: reward=0.009, dist=8.47
+2026-03-02 17:43:23,406 [INFO] Step 400: reward=0.150, dist=7.98
+2026-03-02 17:43:30,138 [INFO] Step 600: reward=5.624, dist=5.19
+2026-03-02 17:43:34,767 [INFO] Step 800: reward=-1.566, dist=3.07
+2026-03-02 17:43:39,372 [INFO] Episode 2245 COMPLETE | Reward 618.21 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:43:43,579 [INFO] Step 0: reward=0.087, dist=4.49
+2026-03-02 17:43:44,814 [INFO] Performing PPO update at global step 1785856
+2026-03-02 17:43:45,100 [INFO] PPO losses — policy: 0.0508, value: 1372.1368, entropy: 4.2242
+2026-03-02 17:43:45,105 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:43:49,341 [INFO] Step 200: reward=-0.158, dist=5.80
+2026-03-02 17:43:56,431 [INFO] Step 400: reward=0.100, dist=6.38
+2026-03-02 17:44:02,441 [INFO] Step 600: reward=0.700, dist=5.21
+2026-03-02 17:44:07,539 [INFO] Step 800: reward=1.368, dist=2.88
+2026-03-02 17:44:13,518 [INFO] Episode 2246 COMPLETE | Reward 130.15 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:44:16,192 [INFO] Step 0: reward=-1.903, dist=7.11
+2026-03-02 17:44:22,312 [INFO] Step 200: reward=0.111, dist=6.66
+2026-03-02 17:44:28,244 [INFO] Step 400: reward=-1.346, dist=8.34
+2026-03-02 17:44:35,456 [INFO] Step 600: reward=0.056, dist=10.14
+2026-03-02 17:44:41,763 [INFO] Step 800: reward=-0.005, dist=8.89
+2026-03-02 17:44:47,051 [INFO] Episode 2247 COMPLETE | Reward -315.88 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:44:50,448 [INFO] Step 0: reward=0.095, dist=4.94
+2026-03-02 17:44:54,156 [INFO] Performing PPO update at global step 1787904
+2026-03-02 17:44:54,437 [INFO] PPO losses — policy: 0.0319, value: 704.8069, entropy: 4.2242
+2026-03-02 17:44:54,443 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:44:57,034 [INFO] Step 200: reward=-1.944, dist=5.28
+2026-03-02 17:45:02,280 [INFO] Step 400: reward=-1.928, dist=7.07
+2026-03-02 17:45:09,122 [INFO] Step 600: reward=0.112, dist=8.01
+2026-03-02 17:45:16,409 [INFO] Step 800: reward=0.596, dist=6.27
+2026-03-02 17:45:23,195 [INFO] Episode 2248 COMPLETE | Reward 391.54 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:45:27,967 [INFO] Step 0: reward=0.095, dist=6.15
+2026-03-02 17:45:34,590 [INFO] Step 200: reward=-0.167, dist=3.53
+2026-03-02 17:45:40,138 [INFO] Step 400: reward=-2.035, dist=4.31
+2026-03-02 17:45:45,424 [INFO] Step 600: reward=-2.000, dist=6.16
+2026-03-02 17:45:53,192 [INFO] Step 800: reward=0.076, dist=7.04
+2026-03-02 17:46:01,154 [INFO] Episode 2249 COMPLETE | Reward -16.66 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:46:03,999 [INFO] Step 0: reward=-0.005, dist=4.89
+2026-03-02 17:46:09,296 [INFO] Performing PPO update at global step 1789952
+2026-03-02 17:46:09,587 [INFO] PPO losses — policy: 0.0611, value: 1343.1690, entropy: 4.2242
+2026-03-02 17:46:09,594 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:46:11,464 [INFO] Policy action (normalized): v = +1.000, w = -0.969 | Cmd_vel (scaled): v = +1.000 m/s, w = -0.969 rad/s
+2026-03-02 17:46:11,652 [INFO] Step 200: reward=-0.005, dist=7.17
+2026-03-02 17:46:16,960 [INFO] Step 400: reward=0.106, dist=8.20
+2026-03-02 17:46:23,944 [INFO] Step 600: reward=5.613, dist=6.17
+2026-03-02 17:46:30,877 [INFO] Step 800: reward=4.147, dist=2.70
+2026-03-02 17:46:34,350 [INFO] Episode 2250 COMPLETE | Reward 1699.96 | Steps 920 | Terminated True | Truncated False
+2026-03-02 17:46:34,381 [INFO] Checkpoint saved: checkpoints/ppo_ep_02250.pt
+2026-03-02 17:46:36,854 [INFO] Step 0: reward=5.993, dist=2.00
+2026-03-02 17:46:38,895 [INFO] Episode 2251 COMPLETE | Reward 505.43 | Steps 52 | Terminated True | Truncated False
+2026-03-02 17:46:42,029 [INFO] Step 0: reward=0.095, dist=4.32
+2026-03-02 17:46:48,646 [INFO] Step 200: reward=0.051, dist=6.34
+2026-03-02 17:46:55,886 [INFO] Step 400: reward=0.319, dist=6.54
+2026-03-02 17:47:01,733 [INFO] Step 600: reward=5.778, dist=3.72
+2026-03-02 17:47:07,713 [INFO] Step 800: reward=-0.234, dist=1.34
+2026-03-02 17:47:14,597 [INFO] Episode 2252 COMPLETE | Reward 760.91 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:47:26,192 [INFO] Step 0: reward=0.094, dist=4.24
+2026-03-02 17:47:31,728 [INFO] Step 200: reward=-0.205, dist=2.38
+2026-03-02 17:47:31,838 [INFO] Performing PPO update at global step 1792000
+2026-03-02 17:47:32,122 [INFO] PPO losses — policy: 0.1095, value: 1570.3085, entropy: 4.2242
+2026-03-02 17:47:32,126 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:47:39,302 [INFO] Step 400: reward=-0.806, dist=2.84
+2026-03-02 17:47:46,330 [INFO] Step 600: reward=-0.225, dist=5.19
+2026-03-02 17:47:54,737 [INFO] Step 800: reward=-0.314, dist=6.77
+2026-03-02 17:48:02,056 [INFO] Episode 2253 COMPLETE | Reward -472.33 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:48:06,259 [INFO] Step 0: reward=0.087, dist=7.40
+2026-03-02 17:48:12,095 [INFO] Step 200: reward=-1.905, dist=9.33
+2026-03-02 17:48:18,750 [INFO] Step 400: reward=0.202, dist=9.38
+2026-03-02 17:48:27,039 [INFO] Step 600: reward=0.203, dist=5.91
+2026-03-02 17:48:31,047 [INFO] Step 800: reward=-3.265, dist=5.58
+2026-03-02 17:48:38,493 [INFO] Episode 2254 COMPLETE | Reward -164.67 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:48:41,608 [INFO] Step 0: reward=-0.005, dist=6.88
+2026-03-02 17:48:48,301 [INFO] Step 200: reward=0.423, dist=6.57
+2026-03-02 17:48:50,573 [INFO] Performing PPO update at global step 1794048
+2026-03-02 17:48:50,994 [INFO] PPO losses — policy: 0.3233, value: 422.4338, entropy: 4.2242
+2026-03-02 17:48:51,002 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:48:54,919 [INFO] Step 400: reward=0.694, dist=4.20
+2026-03-02 17:49:00,334 [INFO] Step 600: reward=-0.205, dist=2.47
+2026-03-02 17:49:07,610 [INFO] Step 800: reward=-0.464, dist=4.53
+2026-03-02 17:49:13,369 [INFO] Episode 2255 COMPLETE | Reward -163.60 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:49:16,480 [INFO] Step 0: reward=0.095, dist=7.21
+2026-03-02 17:49:23,070 [INFO] Step 200: reward=0.095, dist=7.07
+2026-03-02 17:49:32,578 [INFO] Step 400: reward=2.567, dist=5.94
+2026-03-02 17:49:39,555 [INFO] Step 600: reward=-8.585, dist=4.89
+2026-03-02 17:49:46,042 [INFO] Step 800: reward=0.729, dist=4.08
+2026-03-02 17:49:51,371 [INFO] Episode 2256 COMPLETE | Reward -349.13 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:49:55,173 [INFO] Step 0: reward=5.944, dist=2.63
+2026-03-02 17:49:58,752 [INFO] Episode 2257 COMPLETE | Reward 1085.96 | Steps 148 | Terminated True | Truncated False
+2026-03-02 17:50:01,008 [INFO] Step 0: reward=-0.005, dist=4.55
+2026-03-02 17:50:08,411 [INFO] Performing PPO update at global step 1796096
+2026-03-02 17:50:08,694 [INFO] PPO losses — policy: 0.0840, value: 2493.0056, entropy: 4.2242
+2026-03-02 17:50:08,702 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:50:09,785 [INFO] Step 200: reward=0.473, dist=1.82
+2026-03-02 17:50:18,082 [INFO] Step 400: reward=-0.698, dist=3.32
+2026-03-02 17:50:24,628 [INFO] Step 600: reward=0.052, dist=4.52
+2026-03-02 17:50:31,686 [INFO] Step 800: reward=5.634, dist=3.18
+2026-03-02 17:50:36,318 [INFO] Episode 2258 COMPLETE | Reward 589.41 | Steps 942 | Terminated True | Truncated False
+2026-03-02 17:50:38,442 [INFO] Step 0: reward=-6.207, dist=6.44
+2026-03-02 17:50:45,208 [INFO] Step 200: reward=0.095, dist=5.09
+2026-03-02 17:50:52,672 [INFO] Step 400: reward=-0.087, dist=7.37
+2026-03-02 17:51:01,503 [INFO] Step 600: reward=0.133, dist=8.00
+2026-03-02 17:51:08,955 [INFO] Step 800: reward=-4.690, dist=5.94
+2026-03-02 17:51:16,204 [INFO] Episode 2259 COMPLETE | Reward 363.80 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:51:19,351 [INFO] Step 0: reward=-0.215, dist=3.53
+2026-03-02 17:51:25,833 [INFO] Step 200: reward=0.073, dist=5.43
+2026-03-02 17:51:28,370 [INFO] Performing PPO update at global step 1798144
+2026-03-02 17:51:28,660 [INFO] PPO losses — policy: 0.0277, value: 1200.4042, entropy: 4.2242
+2026-03-02 17:51:28,665 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:51:32,529 [INFO] Step 400: reward=0.412, dist=4.77
+2026-03-02 17:51:39,911 [INFO] Step 600: reward=5.606, dist=1.37
+2026-03-02 17:51:40,590 [INFO] Episode 2260 COMPLETE | Reward 1132.37 | Steps 619 | Terminated True | Truncated False
+2026-03-02 17:51:40,610 [INFO] Checkpoint saved: checkpoints/ppo_ep_02260.pt
+2026-03-02 17:51:44,904 [INFO] Step 0: reward=-0.005, dist=7.63
+2026-03-02 17:51:53,857 [INFO] Step 200: reward=1.950, dist=5.61
+2026-03-02 17:52:01,575 [INFO] Step 400: reward=6.460, dist=3.60
+2026-03-02 17:52:07,661 [INFO] Episode 2261 COMPLETE | Reward 1168.50 | Steps 579 | Terminated True | Truncated False
+2026-03-02 17:52:11,788 [INFO] Step 0: reward=0.092, dist=7.59
+2026-03-02 17:52:17,455 [INFO] Step 200: reward=-1.906, dist=9.22
+2026-03-02 17:52:23,737 [INFO] Step 400: reward=-1.909, dist=10.67
+2026-03-02 17:52:29,726 [INFO] Step 600: reward=0.095, dist=9.80
+2026-03-02 17:52:36,760 [INFO] Step 800: reward=0.095, dist=7.10
+2026-03-02 17:52:39,628 [INFO] Policy action (normalized): v = +0.999, w = +0.985 | Cmd_vel (scaled): v = +0.999 m/s, w = +0.985 rad/s
+2026-03-02 17:52:41,461 [INFO] Episode 2262 COMPLETE | Reward -273.92 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:52:46,048 [INFO] Step 0: reward=-0.257, dist=3.05
+2026-03-02 17:52:49,245 [INFO] Performing PPO update at global step 1800192
+2026-03-02 17:52:49,546 [INFO] PPO losses — policy: 0.1147, value: 1059.3678, entropy: 4.2242
+2026-03-02 17:52:49,550 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:52:51,181 [INFO] Step 200: reward=-2.205, dist=3.47
+2026-03-02 17:52:57,423 [INFO] Step 400: reward=-0.015, dist=5.62
+2026-03-02 17:53:05,084 [INFO] Step 600: reward=5.710, dist=4.54
+2026-03-02 17:53:11,451 [INFO] Step 800: reward=2.229, dist=3.86
+2026-03-02 17:53:17,540 [INFO] Episode 2263 COMPLETE | Reward 880.73 | Steps 988 | Terminated True | Truncated False
+2026-03-02 17:53:22,311 [INFO] Step 0: reward=0.095, dist=5.33
+2026-03-02 17:53:29,095 [INFO] Step 200: reward=0.039, dist=4.40
+2026-03-02 17:53:36,960 [INFO] Step 400: reward=0.761, dist=1.11
+2026-03-02 17:53:37,265 [INFO] Episode 2264 COMPLETE | Reward 737.27 | Steps 408 | Terminated True | Truncated False
+2026-03-02 17:53:41,666 [INFO] Step 0: reward=-0.207, dist=2.51
+2026-03-02 17:53:49,077 [INFO] Step 200: reward=-0.023, dist=4.88
+2026-03-02 17:53:56,027 [INFO] Step 400: reward=0.221, dist=4.55
+2026-03-02 17:54:04,035 [INFO] Step 600: reward=0.739, dist=1.32
+2026-03-02 17:54:04,831 [INFO] Episode 2265 COMPLETE | Reward 1021.85 | Steps 628 | Terminated True | Truncated False
+2026-03-02 17:54:07,056 [INFO] Step 0: reward=-0.305, dist=2.54
+2026-03-02 17:54:12,123 [INFO] Performing PPO update at global step 1802240
+2026-03-02 17:54:12,398 [INFO] PPO losses — policy: 0.0410, value: 1971.3540, entropy: 4.2242
+2026-03-02 17:54:12,404 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:54:14,910 [INFO] Step 200: reward=0.045, dist=4.03
+2026-03-02 17:54:21,237 [INFO] Step 400: reward=0.009, dist=3.59
+2026-03-02 17:54:27,693 [INFO] Episode 2266 COMPLETE | Reward 586.64 | Steps 557 | Terminated True | Truncated False
+2026-03-02 17:54:31,835 [INFO] Step 0: reward=-0.226, dist=3.87
+2026-03-02 17:54:38,086 [INFO] Episode 2267 COMPLETE | Reward 826.32 | Steps 131 | Terminated True | Truncated False
+2026-03-02 17:54:43,115 [INFO] Step 0: reward=-0.205, dist=3.32
+2026-03-02 17:54:48,018 [INFO] Step 200: reward=-2.165, dist=3.92
+2026-03-02 17:54:54,171 [INFO] Step 400: reward=6.071, dist=2.33
+2026-03-02 17:54:56,912 [INFO] Episode 2268 COMPLETE | Reward 613.09 | Steps 487 | Terminated True | Truncated False
+2026-03-02 17:54:59,190 [INFO] Step 0: reward=0.094, dist=5.91
+2026-03-02 17:55:05,134 [INFO] Step 200: reward=-0.098, dist=6.16
+2026-03-02 17:55:10,072 [INFO] Step 400: reward=-1.877, dist=7.72
+2026-03-02 17:55:16,923 [INFO] Step 600: reward=0.305, dist=7.78
+2026-03-02 17:55:23,539 [INFO] Step 800: reward=-3.904, dist=6.33
+2026-03-02 17:55:30,443 [INFO] Episode 2269 COMPLETE | Reward -252.51 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:55:33,612 [INFO] Step 0: reward=-0.205, dist=3.66
+2026-03-02 17:55:34,024 [INFO] Performing PPO update at global step 1804288
+2026-03-02 17:55:34,309 [INFO] PPO losses — policy: -0.0032, value: 1989.2685, entropy: 4.2242
+2026-03-02 17:55:34,314 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:55:39,308 [INFO] Step 200: reward=-1.911, dist=5.29
+2026-03-02 17:55:44,863 [INFO] Step 400: reward=-1.932, dist=4.80
+2026-03-02 17:55:50,863 [INFO] Step 600: reward=0.604, dist=4.31
+2026-03-02 17:55:58,444 [INFO] Step 800: reward=0.802, dist=4.08
+2026-03-02 17:56:05,305 [INFO] Episode 2270 COMPLETE | Reward -1611.68 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:56:05,330 [INFO] Checkpoint saved: checkpoints/ppo_ep_02270.pt
+2026-03-02 17:56:08,548 [INFO] Step 0: reward=0.063, dist=6.02
+2026-03-02 17:56:14,665 [INFO] Step 200: reward=0.078, dist=6.35
+2026-03-02 17:56:21,674 [INFO] Step 400: reward=0.797, dist=5.21
+2026-03-02 17:56:27,519 [INFO] Step 600: reward=5.618, dist=3.75
+2026-03-02 17:56:34,425 [INFO] Step 800: reward=6.138, dist=1.03
+2026-03-02 17:56:34,527 [INFO] Episode 2271 COMPLETE | Reward 310.60 | Steps 811 | Terminated True | Truncated False
+2026-03-02 17:56:38,849 [INFO] Step 0: reward=-0.206, dist=3.59
+2026-03-02 17:56:44,420 [INFO] Step 200: reward=0.771, dist=2.03
+2026-03-02 17:56:46,740 [INFO] Episode 2272 COMPLETE | Reward 347.55 | Steps 250 | Terminated True | Truncated False
+2026-03-02 17:56:50,877 [INFO] Step 0: reward=-0.211, dist=2.68
+2026-03-02 17:56:51,009 [INFO] Performing PPO update at global step 1806336
+2026-03-02 17:56:51,296 [INFO] PPO losses — policy: 0.3388, value: 4465.1684, entropy: 4.2242
+2026-03-02 17:56:51,303 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:56:57,071 [INFO] Step 200: reward=-0.205, dist=2.73
+2026-03-02 17:57:02,443 [INFO] Step 400: reward=-0.651, dist=3.80
+2026-03-02 17:57:08,858 [INFO] Step 600: reward=0.107, dist=5.31
+2026-03-02 17:57:14,637 [INFO] Step 800: reward=-1.718, dist=4.39
+2026-03-02 17:57:19,617 [INFO] Episode 2273 COMPLETE | Reward -1574.32 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:57:22,717 [INFO] Step 0: reward=0.076, dist=7.12
+2026-03-02 17:57:28,422 [INFO] Step 200: reward=-0.148, dist=7.32
+2026-03-02 17:57:35,123 [INFO] Step 400: reward=0.094, dist=9.20
+2026-03-02 17:57:41,564 [INFO] Step 600: reward=-1.932, dist=8.83
+2026-03-02 17:57:47,472 [INFO] Step 800: reward=-3.475, dist=7.65
+2026-03-02 17:57:52,524 [INFO] Episode 2274 COMPLETE | Reward -507.93 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:57:55,087 [INFO] Step 0: reward=0.087, dist=5.50
+2026-03-02 17:57:55,783 [INFO] Performing PPO update at global step 1808384
+2026-03-02 17:57:56,065 [INFO] PPO losses — policy: 0.0429, value: 1840.5461, entropy: 4.2242
+2026-03-02 17:57:56,071 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:58:00,653 [INFO] Step 200: reward=0.095, dist=5.51
+2026-03-02 17:58:07,757 [INFO] Step 400: reward=-6.332, dist=5.95
+2026-03-02 17:58:15,502 [INFO] Step 600: reward=-4.274, dist=6.49
+2026-03-02 17:58:21,188 [INFO] Step 800: reward=-4.585, dist=6.76
+2026-03-02 17:58:30,474 [INFO] Episode 2275 COMPLETE | Reward -1987.14 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:58:32,665 [INFO] Step 0: reward=-4.681, dist=6.35
+2026-03-02 17:58:38,969 [INFO] Step 200: reward=-4.463, dist=6.35
+2026-03-02 17:58:45,201 [INFO] Step 400: reward=-0.005, dist=5.74
+2026-03-02 17:58:52,072 [INFO] Step 600: reward=-0.392, dist=7.64
+2026-03-02 17:58:53,703 [INFO] Policy action (normalized): v = -0.720, w = -0.344 | Cmd_vel (scaled): v = -0.720 m/s, w = -0.344 rad/s
+2026-03-02 17:58:59,732 [INFO] Step 800: reward=-4.162, dist=7.21
+2026-03-02 17:59:06,495 [INFO] Episode 2276 COMPLETE | Reward -1024.88 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 17:59:09,620 [INFO] Step 0: reward=-0.219, dist=2.77
+2026-03-02 17:59:13,658 [INFO] Performing PPO update at global step 1810432
+2026-03-02 17:59:13,946 [INFO] PPO losses — policy: 0.0037, value: 2434.3848, entropy: 4.2242
+2026-03-02 17:59:13,950 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 17:59:16,509 [INFO] Step 200: reward=-1.528, dist=3.23
+2026-03-02 17:59:21,868 [INFO] Step 400: reward=-0.213, dist=2.74
+2026-03-02 17:59:27,410 [INFO] Step 600: reward=-0.551, dist=4.06
+2026-03-02 17:59:33,565 [INFO] Step 800: reward=0.053, dist=5.36
+2026-03-02 17:59:40,849 [INFO] Episode 2277 COMPLETE | Reward -1129.29 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:00:06,121 [INFO] Step 0: reward=-100.000, dist=2102.37
+2026-03-02 18:00:06,121 [INFO] Episode 2278 COMPLETE | Reward -100.00 | Steps 1 | Terminated False | Truncated True
+2026-03-02 18:00:09,107 [INFO] Step 0: reward=0.278, dist=7.43
+2026-03-02 18:00:14,873 [INFO] Step 200: reward=-1.435, dist=6.69
+2026-03-02 18:00:20,109 [INFO] Step 400: reward=-2.817, dist=6.65
+2026-03-02 18:00:25,950 [INFO] Step 600: reward=-0.322, dist=6.71
+2026-03-02 18:00:32,247 [INFO] Step 800: reward=0.092, dist=8.54
+2026-03-02 18:00:39,000 [INFO] Episode 2279 COMPLETE | Reward -943.55 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:00:43,009 [INFO] Step 0: reward=-0.739, dist=2.21
+2026-03-02 18:00:47,107 [INFO] Performing PPO update at global step 1812480
+2026-03-02 18:00:47,392 [INFO] PPO losses — policy: 0.0169, value: 978.1778, entropy: 4.2242
+2026-03-02 18:00:47,398 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:00:48,285 [INFO] Step 200: reward=-2.211, dist=1.89
+2026-03-02 18:00:52,420 [INFO] Episode 2280 COMPLETE | Reward -101.13 | Steps 370 | Terminated True | Truncated False
+2026-03-02 18:00:52,446 [INFO] Checkpoint saved: checkpoints/ppo_ep_02280.pt
+2026-03-02 18:00:56,822 [INFO] Step 0: reward=-0.205, dist=3.54
+2026-03-02 18:01:03,672 [INFO] Step 200: reward=0.225, dist=5.27
+2026-03-02 18:01:10,657 [INFO] Step 400: reward=0.056, dist=6.29
+2026-03-02 18:01:17,065 [INFO] Step 600: reward=-1.905, dist=5.93
+2026-03-02 18:01:23,309 [INFO] Step 800: reward=-1.543, dist=5.36
+2026-03-02 18:01:30,458 [INFO] Episode 2281 COMPLETE | Reward -1215.49 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:01:34,770 [INFO] Step 0: reward=-2.169, dist=3.95
+2026-03-02 18:01:41,470 [INFO] Step 200: reward=-1.310, dist=4.82
+2026-03-02 18:01:46,755 [INFO] Step 400: reward=-1.551, dist=4.10
+2026-03-02 18:01:52,314 [INFO] Step 600: reward=-9.635, dist=4.59
+2026-03-02 18:01:57,094 [INFO] Step 800: reward=-1.540, dist=5.08
+2026-03-02 18:01:58,017 [INFO] Performing PPO update at global step 1814528
+2026-03-02 18:01:58,320 [INFO] PPO losses — policy: 0.0009, value: 2527.3809, entropy: 4.2242
+2026-03-02 18:01:58,329 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:02:02,851 [INFO] Episode 2282 COMPLETE | Reward -2402.16 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:02:06,328 [INFO] Step 0: reward=0.095, dist=4.61
+2026-03-02 18:02:15,303 [INFO] Step 200: reward=-1.558, dist=4.39
+2026-03-02 18:02:21,125 [INFO] Step 400: reward=-5.281, dist=4.43
+2026-03-02 18:02:25,661 [INFO] Step 600: reward=-5.712, dist=4.77
+2026-03-02 18:02:30,903 [INFO] Step 800: reward=0.682, dist=4.97
+2026-03-02 18:02:35,636 [INFO] Episode 2283 COMPLETE | Reward -2676.09 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:02:40,243 [INFO] Step 0: reward=0.095, dist=5.65
+2026-03-02 18:02:48,302 [INFO] Step 200: reward=-1.907, dist=8.12
+2026-03-02 18:02:53,793 [INFO] Step 400: reward=0.093, dist=8.76
+2026-03-02 18:03:00,140 [INFO] Step 600: reward=0.590, dist=7.29
+2026-03-02 18:03:06,711 [INFO] Step 800: reward=-6.179, dist=6.78
+2026-03-02 18:03:10,034 [INFO] Performing PPO update at global step 1816576
+2026-03-02 18:03:10,323 [INFO] PPO losses — policy: 0.0369, value: 3722.1040, entropy: 4.2242
+2026-03-02 18:03:10,329 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:03:15,482 [INFO] Episode 2284 COMPLETE | Reward -544.61 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:03:17,725 [INFO] Step 0: reward=-0.217, dist=3.53
+2026-03-02 18:03:23,116 [INFO] Step 200: reward=-0.063, dist=4.84
+2026-03-02 18:03:28,960 [INFO] Step 400: reward=0.095, dist=6.62
+2026-03-02 18:03:37,245 [INFO] Step 600: reward=-1.418, dist=5.70
+2026-03-02 18:03:44,469 [INFO] Step 800: reward=-1.403, dist=5.62
+2026-03-02 18:03:50,991 [INFO] Episode 2285 COMPLETE | Reward -668.72 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:03:55,019 [INFO] Step 0: reward=0.095, dist=6.53
+2026-03-02 18:04:01,415 [INFO] Step 200: reward=-1.908, dist=6.95
+2026-03-02 18:04:08,775 [INFO] Step 400: reward=6.068, dist=6.33
+2026-03-02 18:04:15,596 [INFO] Step 600: reward=-3.696, dist=6.22
+2026-03-02 18:04:23,225 [INFO] Step 800: reward=4.479, dist=6.12
+2026-03-02 18:04:27,152 [INFO] Performing PPO update at global step 1818624
+2026-03-02 18:04:27,525 [INFO] PPO losses — policy: -0.0017, value: 1204.2681, entropy: 4.2242
+2026-03-02 18:04:27,530 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:04:31,276 [INFO] Episode 2286 COMPLETE | Reward -584.77 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:04:33,847 [INFO] Step 0: reward=-1.848, dist=7.33
+2026-03-02 18:04:40,288 [INFO] Step 200: reward=-2.390, dist=8.84
+2026-03-02 18:04:46,831 [INFO] Step 400: reward=-0.005, dist=10.57
+2026-03-02 18:04:51,580 [INFO] Step 600: reward=0.089, dist=11.12
+2026-03-02 18:04:58,288 [INFO] Step 800: reward=5.776, dist=9.39
+2026-03-02 18:05:05,115 [INFO] Episode 2287 COMPLETE | Reward -266.72 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:05:08,332 [INFO] Step 0: reward=-0.206, dist=2.90
+2026-03-02 18:05:15,082 [INFO] Step 200: reward=-0.119, dist=4.93
+2026-03-02 18:05:17,998 [INFO] Policy action (normalized): v = +0.950, w = +0.943 | Cmd_vel (scaled): v = +0.950 m/s, w = +0.943 rad/s
+2026-03-02 18:05:19,466 [INFO] Step 400: reward=-0.925, dist=5.33
+2026-03-02 18:05:26,413 [INFO] Step 600: reward=-4.140, dist=4.08
+2026-03-02 18:05:35,407 [INFO] Step 800: reward=-0.155, dist=2.25
+2026-03-02 18:05:39,782 [INFO] Performing PPO update at global step 1820672
+2026-03-02 18:05:40,065 [INFO] PPO losses — policy: 0.0045, value: 973.9843, entropy: 4.2242
+2026-03-02 18:05:40,070 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:05:41,337 [INFO] Episode 2288 COMPLETE | Reward -672.67 | Steps 1000 | Terminated True | Truncated True
+2026-03-02 18:05:43,634 [INFO] Step 0: reward=-0.235, dist=3.57
+2026-03-02 18:05:48,506 [INFO] Step 200: reward=0.120, dist=4.02
+2026-03-02 18:05:55,489 [INFO] Step 400: reward=-11.512, dist=3.19
+2026-03-02 18:06:01,026 [INFO] Step 600: reward=2.596, dist=3.36
+2026-03-02 18:06:08,415 [INFO] Step 800: reward=0.760, dist=3.61
+2026-03-02 18:06:14,306 [INFO] Episode 2289 COMPLETE | Reward -1967.90 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:06:17,317 [INFO] Step 0: reward=0.075, dist=4.58
+2026-03-02 18:06:22,072 [INFO] Step 200: reward=-0.133, dist=6.07
+2026-03-02 18:06:29,466 [INFO] Step 400: reward=0.095, dist=6.97
+2026-03-02 18:06:36,074 [INFO] Step 600: reward=-5.842, dist=6.32
+2026-03-02 18:06:42,903 [INFO] Step 800: reward=-2.204, dist=6.37
+2026-03-02 18:06:49,595 [INFO] Episode 2290 COMPLETE | Reward -678.32 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:06:49,623 [INFO] Checkpoint saved: checkpoints/ppo_ep_02290.pt
+2026-03-02 18:06:52,249 [INFO] Step 0: reward=-0.205, dist=2.93
+2026-03-02 18:06:53,489 [INFO] Performing PPO update at global step 1822720
+2026-03-02 18:06:53,774 [INFO] PPO losses — policy: 0.0547, value: 2841.7992, entropy: 4.2242
+2026-03-02 18:06:53,779 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:06:59,602 [INFO] Step 200: reward=-1.657, dist=5.14
+2026-03-02 18:07:09,064 [INFO] Step 400: reward=3.914, dist=5.05
+2026-03-02 18:07:16,788 [INFO] Step 600: reward=5.474, dist=5.06
+2026-03-02 18:07:23,325 [INFO] Step 800: reward=-2.009, dist=5.27
+2026-03-02 18:07:31,054 [INFO] Episode 2291 COMPLETE | Reward -1327.72 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:07:34,244 [INFO] Step 0: reward=0.044, dist=4.01
+2026-03-02 18:07:40,633 [INFO] Step 200: reward=0.042, dist=5.62
+2026-03-02 18:07:47,937 [INFO] Step 400: reward=-4.178, dist=5.27
+2026-03-02 18:07:52,984 [INFO] Step 600: reward=-4.250, dist=5.31
+2026-03-02 18:07:59,534 [INFO] Step 800: reward=-6.173, dist=6.15
+2026-03-02 18:08:04,649 [INFO] Episode 2292 COMPLETE | Reward -1688.41 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:08:08,954 [INFO] Step 0: reward=0.094, dist=7.79
+2026-03-02 18:08:10,744 [INFO] Performing PPO update at global step 1824768
+2026-03-02 18:08:11,020 [INFO] PPO losses — policy: 0.0203, value: 2219.5943, entropy: 4.2242
+2026-03-02 18:08:11,028 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:08:14,123 [INFO] Step 200: reward=0.094, dist=8.13
+2026-03-02 18:08:20,827 [INFO] Step 400: reward=0.027, dist=10.30
+2026-03-02 18:08:27,929 [INFO] Step 600: reward=0.475, dist=9.00
+2026-03-02 18:08:33,269 [INFO] Step 800: reward=0.179, dist=7.53
+2026-03-02 18:08:40,415 [INFO] Episode 2293 COMPLETE | Reward -8.96 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:08:52,063 [INFO] Step 0: reward=0.091, dist=4.24
+2026-03-02 18:08:58,506 [INFO] Step 200: reward=-0.207, dist=2.35
+2026-03-02 18:09:03,789 [INFO] Step 400: reward=-0.384, dist=3.54
+2026-03-02 18:09:11,134 [INFO] Step 600: reward=-0.005, dist=5.11
+2026-03-02 18:09:15,322 [INFO] Step 800: reward=0.178, dist=4.09
+2026-03-02 18:09:22,485 [INFO] Episode 2294 COMPLETE | Reward -669.17 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:09:25,168 [INFO] Step 0: reward=0.095, dist=7.36
+2026-03-02 18:09:28,770 [INFO] Performing PPO update at global step 1826816
+2026-03-02 18:09:29,156 [INFO] PPO losses — policy: 0.0508, value: 346.1808, entropy: 4.2242
+2026-03-02 18:09:29,163 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:09:31,509 [INFO] Step 200: reward=-1.927, dist=8.81
+2026-03-02 18:09:38,403 [INFO] Step 400: reward=0.085, dist=10.32
+2026-03-02 18:09:44,463 [INFO] Step 600: reward=-1.508, dist=9.30
+2026-03-02 18:09:52,202 [INFO] Step 800: reward=0.086, dist=7.48
+2026-03-02 18:09:59,406 [INFO] Episode 2295 COMPLETE | Reward -297.92 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:10:02,774 [INFO] Step 0: reward=0.087, dist=6.26
+2026-03-02 18:10:08,937 [INFO] Step 200: reward=1.033, dist=5.14
+2026-03-02 18:10:15,431 [INFO] Step 400: reward=-1.841, dist=4.27
+2026-03-02 18:10:22,288 [INFO] Step 600: reward=3.591, dist=3.74
+2026-03-02 18:10:30,626 [INFO] Step 800: reward=-3.825, dist=3.76
+2026-03-02 18:10:38,698 [INFO] Episode 2296 COMPLETE | Reward -1657.74 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:10:42,041 [INFO] Step 0: reward=-0.205, dist=2.08
+2026-03-02 18:10:48,178 [INFO] Performing PPO update at global step 1828864
+2026-03-02 18:10:48,458 [INFO] PPO losses — policy: 0.0616, value: 1737.5422, entropy: 4.2242
+2026-03-02 18:10:48,463 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:10:50,094 [INFO] Step 200: reward=6.138, dist=1.55
+2026-03-02 18:10:55,968 [INFO] Step 400: reward=-1.267, dist=1.79
+2026-03-02 18:11:02,859 [INFO] Step 600: reward=0.854, dist=1.65
+2026-03-02 18:11:10,458 [INFO] Step 800: reward=-1.481, dist=1.04
+2026-03-02 18:11:10,875 [INFO] Episode 2297 COMPLETE | Reward -1454.83 | Steps 808 | Terminated True | Truncated False
+2026-03-02 18:11:16,090 [INFO] Step 0: reward=0.053, dist=5.06
+2026-03-02 18:11:20,506 [INFO] Step 200: reward=0.326, dist=4.23
+2026-03-02 18:11:26,991 [INFO] Step 400: reward=-6.380, dist=3.55
+2026-03-02 18:11:29,068 [INFO] Policy action (normalized): v = +0.995, w = +0.135 | Cmd_vel (scaled): v = +0.995 m/s, w = +0.135 rad/s
+2026-03-02 18:11:34,187 [INFO] Step 600: reward=0.557, dist=1.71
+2026-03-02 18:11:40,368 [INFO] Episode 2298 COMPLETE | Reward -642.80 | Steps 789 | Terminated True | Truncated False
+2026-03-02 18:11:43,423 [INFO] Step 0: reward=-0.250, dist=2.76
+2026-03-02 18:11:48,176 [INFO] Step 200: reward=-0.620, dist=4.03
+2026-03-02 18:11:52,296 [INFO] Step 400: reward=-0.005, dist=4.37
+2026-03-02 18:11:59,698 [INFO] Step 600: reward=0.572, dist=3.64
+2026-03-02 18:12:00,507 [INFO] Performing PPO update at global step 1830912
+2026-03-02 18:12:00,785 [INFO] PPO losses — policy: 0.1333, value: 2924.8089, entropy: 4.2242
+2026-03-02 18:12:00,791 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:12:06,861 [INFO] Step 800: reward=-3.455, dist=3.54
+2026-03-02 18:12:15,098 [INFO] Episode 2299 COMPLETE | Reward -1066.70 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:12:19,085 [INFO] Step 0: reward=0.095, dist=7.64
+2026-03-02 18:12:25,426 [INFO] Step 200: reward=0.095, dist=9.72
+2026-03-02 18:12:31,488 [INFO] Step 400: reward=-2.970, dist=8.84
+2026-03-02 18:12:38,002 [INFO] Step 600: reward=-3.167, dist=7.36
+2026-03-02 18:12:43,701 [INFO] Step 800: reward=0.095, dist=9.23
+2026-03-02 18:12:50,060 [INFO] Episode 2300 COMPLETE | Reward -153.72 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:12:50,083 [INFO] Checkpoint saved: checkpoints/ppo_ep_02300.pt
+2026-03-02 18:12:53,126 [INFO] Step 0: reward=-0.205, dist=2.77
+2026-03-02 18:12:58,685 [INFO] Step 200: reward=-0.218, dist=2.91
+2026-03-02 18:13:03,878 [INFO] Step 400: reward=-5.960, dist=1.93
+2026-03-02 18:13:09,119 [INFO] Episode 2301 COMPLETE | Reward -350.02 | Steps 560 | Terminated True | Truncated False
+2026-03-02 18:13:13,220 [INFO] Step 0: reward=-0.005, dist=7.12
+2026-03-02 18:13:17,291 [INFO] Performing PPO update at global step 1832960
+2026-03-02 18:13:17,707 [INFO] PPO losses — policy: 0.0066, value: 1085.3355, entropy: 4.2242
+2026-03-02 18:13:17,715 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:13:21,419 [INFO] Step 200: reward=-3.550, dist=5.34
+2026-03-02 18:13:28,283 [INFO] Step 400: reward=0.607, dist=4.38
+2026-03-02 18:13:34,472 [INFO] Step 600: reward=-1.569, dist=3.05
+2026-03-02 18:13:42,464 [INFO] Step 800: reward=-1.613, dist=1.47
+2026-03-02 18:13:44,105 [INFO] Episode 2302 COMPLETE | Reward -257.39 | Steps 831 | Terminated True | Truncated False
+2026-03-02 18:13:47,259 [INFO] Step 0: reward=5.993, dist=7.64
+2026-03-02 18:13:52,798 [INFO] Step 200: reward=-1.230, dist=6.53
+2026-03-02 18:13:59,289 [INFO] Step 400: reward=-1.327, dist=5.48
+2026-03-02 18:14:08,220 [INFO] Step 600: reward=-0.029, dist=4.36
+2026-03-02 18:14:14,142 [INFO] Step 800: reward=0.930, dist=3.99
+2026-03-02 18:14:19,840 [INFO] Episode 2303 COMPLETE | Reward -557.49 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:14:22,140 [INFO] Step 0: reward=0.095, dist=7.34
+2026-03-02 18:14:29,354 [INFO] Step 200: reward=0.075, dist=8.70
+2026-03-02 18:14:32,257 [INFO] Performing PPO update at global step 1835008
+2026-03-02 18:14:32,538 [INFO] PPO losses — policy: 0.0026, value: 1419.8017, entropy: 4.2242
+2026-03-02 18:14:32,542 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:14:34,734 [INFO] Step 400: reward=0.540, dist=7.14
+2026-03-02 18:14:40,254 [INFO] Step 600: reward=-8.582, dist=5.75
+2026-03-02 18:14:46,867 [INFO] Step 800: reward=0.444, dist=4.62
+2026-03-02 18:14:53,035 [INFO] Episode 2304 COMPLETE | Reward -281.09 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:14:56,233 [INFO] Step 0: reward=-0.205, dist=3.31
+2026-03-02 18:15:03,676 [INFO] Step 200: reward=-0.438, dist=4.11
+2026-03-02 18:15:10,225 [INFO] Step 400: reward=0.420, dist=2.91
+2026-03-02 18:15:16,541 [INFO] Step 600: reward=-0.205, dist=1.38
+2026-03-02 18:15:18,099 [INFO] Episode 2305 COMPLETE | Reward -235.62 | Steps 662 | Terminated True | Truncated False
+2026-03-02 18:15:21,069 [INFO] Step 0: reward=-0.415, dist=7.15
+2026-03-02 18:15:27,305 [INFO] Step 200: reward=-0.354, dist=8.00
+2026-03-02 18:15:33,871 [INFO] Step 400: reward=0.095, dist=9.07
+2026-03-02 18:15:38,555 [INFO] Step 600: reward=0.686, dist=7.79
+2026-03-02 18:15:42,750 [INFO] Performing PPO update at global step 1837056
+2026-03-02 18:15:43,035 [INFO] PPO losses — policy: 0.0011, value: 1064.0552, entropy: 4.2242
+2026-03-02 18:15:43,040 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:15:45,256 [INFO] Step 800: reward=0.159, dist=5.94
+2026-03-02 18:15:51,958 [INFO] Episode 2306 COMPLETE | Reward -121.07 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:15:55,429 [INFO] Step 0: reward=-5.145, dist=4.28
+2026-03-02 18:16:01,099 [INFO] Step 200: reward=-9.769, dist=4.17
+2026-03-02 18:16:06,453 [INFO] Step 400: reward=0.829, dist=2.91
+2026-03-02 18:16:11,687 [INFO] Step 600: reward=0.591, dist=1.38
+2026-03-02 18:16:13,032 [INFO] Episode 2307 COMPLETE | Reward -335.25 | Steps 642 | Terminated True | Truncated False
+2026-03-02 18:16:16,107 [INFO] Step 0: reward=0.095, dist=7.99
+2026-03-02 18:16:22,007 [INFO] Step 200: reward=-2.102, dist=8.71
+2026-03-02 18:16:28,024 [INFO] Step 400: reward=0.519, dist=9.39
+2026-03-02 18:16:34,506 [INFO] Step 600: reward=0.003, dist=7.87
+2026-03-02 18:16:40,607 [INFO] Step 800: reward=-0.069, dist=9.61
+2026-03-02 18:16:49,121 [INFO] Episode 2308 COMPLETE | Reward -19.96 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:16:53,396 [INFO] Step 0: reward=0.095, dist=7.26
+2026-03-02 18:16:56,817 [INFO] Performing PPO update at global step 1839104
+2026-03-02 18:16:57,119 [INFO] PPO losses — policy: 0.0103, value: 623.1188, entropy: 4.2242
+2026-03-02 18:16:57,127 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:16:59,695 [INFO] Step 200: reward=-0.305, dist=8.44
+2026-03-02 18:17:04,104 [INFO] Step 400: reward=0.094, dist=9.48
+2026-03-02 18:17:09,690 [INFO] Step 600: reward=6.137, dist=8.14
+2026-03-02 18:17:16,619 [INFO] Step 800: reward=-0.221, dist=7.63
+2026-03-02 18:17:21,442 [INFO] Episode 2309 COMPLETE | Reward -152.50 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:17:25,393 [INFO] Step 0: reward=0.073, dist=7.64
+2026-03-02 18:17:25,638 [INFO] Policy action (normalized): v = +0.968, w = +1.000 | Cmd_vel (scaled): v = +0.968 m/s, w = +1.000 rad/s
+2026-03-02 18:17:33,328 [INFO] Step 200: reward=0.136, dist=9.84
+2026-03-02 18:17:40,162 [INFO] Step 400: reward=0.065, dist=7.90
+2026-03-02 18:17:46,956 [INFO] Step 600: reward=-0.067, dist=9.22
+2026-03-02 18:17:51,946 [INFO] Step 800: reward=-1.842, dist=9.96
+2026-03-02 18:17:56,254 [INFO] Episode 2310 COMPLETE | Reward -189.47 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:17:56,280 [INFO] Checkpoint saved: checkpoints/ppo_ep_02310.pt
+2026-03-02 18:18:01,389 [INFO] Step 0: reward=5.963, dist=7.85
+2026-03-02 18:18:07,393 [INFO] Performing PPO update at global step 1841152
+2026-03-02 18:18:07,798 [INFO] PPO losses — policy: 0.0087, value: 280.5898, entropy: 4.2242
+2026-03-02 18:18:07,805 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:18:09,236 [INFO] Step 200: reward=-0.110, dist=7.63
+2026-03-02 18:18:14,525 [INFO] Step 400: reward=-1.905, dist=9.11
+2026-03-02 18:18:20,439 [INFO] Step 600: reward=0.513, dist=8.21
+2026-03-02 18:18:26,236 [INFO] Step 800: reward=0.095, dist=6.43
+2026-03-02 18:18:33,657 [INFO] Episode 2311 COMPLETE | Reward -271.06 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:18:37,813 [INFO] Step 0: reward=5.974, dist=3.73
+2026-03-02 18:18:46,123 [INFO] Step 200: reward=-0.668, dist=2.17
+2026-03-02 18:18:51,595 [INFO] Step 400: reward=-6.409, dist=1.11
+2026-03-02 18:18:59,839 [INFO] Step 600: reward=-8.965, dist=1.26
+2026-03-02 18:19:01,168 [INFO] Episode 2312 COMPLETE | Reward -559.61 | Steps 632 | Terminated True | Truncated False
+2026-03-02 18:19:03,478 [INFO] Step 0: reward=0.092, dist=7.06
+2026-03-02 18:19:09,626 [INFO] Step 200: reward=-0.059, dist=7.39
+2026-03-02 18:19:17,260 [INFO] Step 400: reward=-2.275, dist=9.70
+2026-03-02 18:19:22,152 [INFO] Performing PPO update at global step 1843200
+2026-03-02 18:19:22,442 [INFO] PPO losses — policy: 0.0456, value: 1028.3293, entropy: 4.2242
+2026-03-02 18:19:22,447 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:19:23,328 [INFO] Step 600: reward=0.469, dist=8.94
+2026-03-02 18:19:28,411 [INFO] Step 800: reward=5.587, dist=7.55
+2026-03-02 18:19:35,611 [INFO] Episode 2313 COMPLETE | Reward 175.63 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:19:38,021 [INFO] Step 0: reward=-0.207, dist=3.22
+2026-03-02 18:19:42,642 [INFO] Step 200: reward=0.848, dist=2.17
+2026-03-02 18:19:48,453 [INFO] Episode 2314 COMPLETE | Reward 164.28 | Steps 400 | Terminated True | Truncated False
+2026-03-02 18:19:51,540 [INFO] Step 0: reward=-1.614, dist=2.90
+2026-03-02 18:19:58,466 [INFO] Step 200: reward=0.565, dist=1.38
+2026-03-02 18:20:02,246 [INFO] Episode 2315 COMPLETE | Reward -36.15 | Steps 320 | Terminated True | Truncated False
+2026-03-02 18:20:13,727 [INFO] Step 0: reward=-0.005, dist=4.24
+2026-03-02 18:20:20,418 [INFO] Step 200: reward=-0.205, dist=2.10
+2026-03-02 18:20:25,225 [INFO] Step 400: reward=-0.283, dist=3.03
+2026-03-02 18:20:31,437 [INFO] Step 600: reward=-1.963, dist=4.23
+2026-03-02 18:20:35,841 [INFO] Step 800: reward=0.064, dist=3.92
+2026-03-02 18:20:39,947 [INFO] Performing PPO update at global step 1845248
+2026-03-02 18:20:40,394 [INFO] PPO losses — policy: 0.0115, value: 817.3386, entropy: 4.2242
+2026-03-02 18:20:40,400 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:20:44,247 [INFO] Episode 2316 COMPLETE | Reward -642.23 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:20:49,153 [INFO] Step 0: reward=0.095, dist=6.39
+2026-03-02 18:20:54,776 [INFO] Step 200: reward=0.095, dist=6.28
+2026-03-02 18:21:01,692 [INFO] Step 400: reward=0.442, dist=5.02
+2026-03-02 18:21:07,484 [INFO] Step 600: reward=-5.222, dist=4.54
+2026-03-02 18:21:14,530 [INFO] Step 800: reward=0.489, dist=4.73
+2026-03-02 18:21:22,115 [INFO] Episode 2317 COMPLETE | Reward -1390.93 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:21:25,048 [INFO] Step 0: reward=-0.205, dist=3.31
+2026-03-02 18:21:31,998 [INFO] Step 200: reward=0.582, dist=2.07
+2026-03-02 18:21:34,904 [INFO] Episode 2318 COMPLETE | Reward 163.49 | Steps 270 | Terminated True | Truncated False
+2026-03-02 18:21:37,962 [INFO] Step 0: reward=-0.005, dist=4.31
+2026-03-02 18:21:42,342 [INFO] Step 200: reward=-1.911, dist=4.60
+2026-03-02 18:21:47,675 [INFO] Step 400: reward=-2.037, dist=6.24
+2026-03-02 18:21:53,921 [INFO] Step 600: reward=0.442, dist=6.04
+2026-03-02 18:21:57,920 [INFO] Performing PPO update at global step 1847296
+2026-03-02 18:21:58,333 [INFO] PPO losses — policy: 0.0050, value: 901.2318, entropy: 4.2242
+2026-03-02 18:21:58,342 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:22:03,266 [INFO] Step 800: reward=0.409, dist=5.03
+2026-03-02 18:22:10,168 [INFO] Episode 2319 COMPLETE | Reward -852.67 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:22:14,579 [INFO] Step 0: reward=0.078, dist=6.60
+2026-03-02 18:22:23,653 [INFO] Step 200: reward=0.596, dist=5.62
+2026-03-02 18:22:32,386 [INFO] Step 400: reward=1.560, dist=4.22
+2026-03-02 18:22:38,643 [INFO] Step 600: reward=-1.495, dist=2.15
+2026-03-02 18:22:41,434 [INFO] Episode 2320 COMPLETE | Reward 40.63 | Steps 675 | Terminated True | Truncated False
+2026-03-02 18:22:41,457 [INFO] Checkpoint saved: checkpoints/ppo_ep_02320.pt
+2026-03-02 18:22:43,602 [INFO] Step 0: reward=5.984, dist=7.34
+2026-03-02 18:22:50,975 [INFO] Step 200: reward=-1.541, dist=5.94
+2026-03-02 18:22:58,321 [INFO] Step 400: reward=-6.501, dist=5.55
+2026-03-02 18:23:03,477 [INFO] Step 600: reward=0.027, dist=5.53
+2026-03-02 18:23:11,163 [INFO] Step 800: reward=0.102, dist=6.38
+2026-03-02 18:23:16,748 [INFO] Episode 2321 COMPLETE | Reward -564.29 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:23:19,028 [INFO] Step 0: reward=0.094, dist=7.96
+2026-03-02 18:23:22,351 [INFO] Performing PPO update at global step 1849344
+2026-03-02 18:23:22,647 [INFO] PPO losses — policy: -0.0011, value: 1150.4534, entropy: 4.2242
+2026-03-02 18:23:22,652 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:23:28,185 [INFO] Step 200: reward=0.092, dist=10.49
+2026-03-02 18:23:36,010 [INFO] Step 400: reward=1.037, dist=8.74
+2026-03-02 18:23:42,160 [INFO] Step 600: reward=-0.129, dist=7.81
+2026-03-02 18:23:47,548 [INFO] Policy action (normalized): v = +1.000, w = +0.999 | Cmd_vel (scaled): v = +1.000 m/s, w = +0.999 rad/s
+2026-03-02 18:23:51,757 [INFO] Step 800: reward=0.010, dist=10.53
+2026-03-02 18:23:59,019 [INFO] Episode 2322 COMPLETE | Reward -199.91 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:24:01,347 [INFO] Step 0: reward=0.088, dist=6.66
+2026-03-02 18:24:10,119 [INFO] Step 200: reward=0.089, dist=6.75
+2026-03-02 18:24:17,083 [INFO] Step 400: reward=0.570, dist=5.68
+2026-03-02 18:24:22,198 [INFO] Step 600: reward=-1.424, dist=4.79
+2026-03-02 18:24:28,971 [INFO] Step 800: reward=0.663, dist=4.05
+2026-03-02 18:24:35,520 [INFO] Episode 2323 COMPLETE | Reward -792.79 | Steps 1000 | Terminated False | Truncated True

@@ -1,0 +1,17 @@
+2026-03-03 14:42:15,704 [INFO] Starting RL Training
+2026-03-03 14:42:15,704 [INFO] Using device: cuda
+2026-03-03 14:42:15,716 [INFO] GPU name: NVIDIA GeForce RTX 4080
+2026-03-03 14:42:15,717 [INFO] TensorBoard logging enabled (tensorboard/)
+2026-03-03 14:42:16,381 [INFO] Resumed training from checkpoint: checkpoints/ppo_ep_02320.pt | episode = 2320, global_step = 1843467
+2026-03-03 14:42:19,948 [INFO] Step 0: reward=-2.196, dist=2.34
+2026-03-03 14:42:26,365 [INFO] Step 200: reward=-0.332, dist=1.35
+2026-03-03 14:42:27,833 [INFO] Episode 2320 COMPLETE | Reward -189.36 | Steps 231 | Terminated True | Truncated False
+2026-03-03 14:42:27,868 [INFO] Checkpoint saved: checkpoints/ppo_ep_02320.pt
+2026-03-03 14:42:27,891 [INFO] New BEST model saved! Reward = -189.36 (episode 2320)
+2026-03-03 14:42:31,581 [INFO] Step 0: reward=-0.211, dist=3.11
+2026-03-03 14:42:37,640 [INFO] Step 200: reward=-2.151, dist=2.19
+2026-03-03 14:42:42,740 [INFO] Step 400: reward=-1.827, dist=2.58
+2026-03-03 14:42:49,045 [INFO] Step 600: reward=5.613, dist=1.11
+2026-03-03 14:42:49,407 [INFO] Episode 2321 COMPLETE | Reward -355.64 | Steps 605 | Terminated True | Truncated False
+2026-03-03 14:42:52,541 [INFO] Step 0: reward=-1.844, dist=84.47
+2026-03-03 14:42:53,245 [INFO] Episode 2322 COMPLETE | Reward -460.83 | Steps 18 | Terminated False | Truncated True

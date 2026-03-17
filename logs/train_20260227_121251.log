@@ -1,0 +1,53 @@
+2026-02-27 12:12:51,815 [INFO] Starting RL Training
+2026-02-27 12:12:51,815 [INFO] Using device: cuda
+2026-02-27 12:12:51,827 [INFO] GPU name: NVIDIA GeForce RTX 4080
+2026-02-27 12:12:51,828 [INFO] TensorBoard logging enabled (tensorboard/)
+2026-02-27 12:12:52,484 [INFO] Resumed training from checkpoint: checkpoints/ppo_ep_01400.pt | episode = 1400, global_step = 1144497
+2026-02-27 12:12:58,243 [INFO] Step 0: reward=-0.205, dist=2.28
+2026-02-27 12:13:06,383 [INFO] Step 200: reward=-0.205, dist=3.79
+2026-02-27 12:13:11,065 [INFO] Step 400: reward=-2.305, dist=3.57
+2026-02-27 12:13:16,513 [INFO] Step 600: reward=0.746, dist=1.43
+2026-02-27 12:13:17,558 [INFO] Episode 1400 COMPLETE | Reward -186.44 | Steps 648 | Terminated True | Truncated False
+2026-02-27 12:13:17,578 [INFO] Checkpoint saved: checkpoints/ppo_ep_01400.pt
+2026-02-27 12:13:17,600 [INFO] New BEST model saved! Reward = -186.44 (episode 1400)
+2026-02-27 12:13:21,736 [INFO] Step 0: reward=-0.205, dist=2.15
+2026-02-27 12:13:25,852 [INFO] Episode 1401 COMPLETE | Reward 223.09 | Steps 100 | Terminated True | Truncated False
+2026-02-27 12:13:25,881 [INFO] New BEST model saved! Reward = 223.09 (episode 1401)
+2026-02-27 12:13:30,861 [INFO] Step 0: reward=-1.675, dist=3.78
+2026-02-27 12:13:38,763 [INFO] Step 200: reward=0.095, dist=5.49
+2026-02-27 12:13:43,426 [INFO] Step 400: reward=0.095, dist=6.41
+2026-02-27 12:13:49,777 [INFO] Step 600: reward=0.136, dist=5.98
+2026-02-27 12:13:56,866 [INFO] Step 800: reward=-1.767, dist=3.20
+2026-02-27 12:14:03,342 [INFO] Episode 1402 COMPLETE | Reward -86.88 | Steps 981 | Terminated True | Truncated False
+2026-02-27 12:14:07,367 [INFO] Step 0: reward=-0.205, dist=3.42
+2026-02-27 12:14:12,152 [INFO] Step 200: reward=-0.364, dist=3.29
+2026-02-27 12:14:18,734 [INFO] Step 400: reward=0.095, dist=4.97
+2026-02-27 12:14:24,891 [INFO] Step 600: reward=0.140, dist=5.32
+2026-02-27 12:14:27,358 [INFO] Performing PPO update at global step 1146880
+2026-02-27 12:14:27,854 [INFO] PPO losses — policy: 0.0563, value: 706.6268, entropy: 4.2242
+2026-02-27 12:14:27,861 [INFO] PPO update completed. Buffer cleared.
+2026-02-27 12:14:31,369 [INFO] Step 800: reward=0.650, dist=3.37
+2026-02-27 12:14:36,496 [INFO] Episode 1403 COMPLETE | Reward 96.42 | Steps 983 | Terminated True | Truncated False
+2026-02-27 12:14:40,635 [INFO] Step 0: reward=-0.205, dist=2.59
+2026-02-27 12:14:47,350 [INFO] Step 200: reward=0.091, dist=4.17
+2026-02-27 12:14:52,397 [INFO] Step 400: reward=0.084, dist=4.83
+2026-02-27 12:14:58,076 [INFO] Step 600: reward=0.865, dist=3.61
+2026-02-27 12:15:02,699 [INFO] Step 800: reward=0.553, dist=1.52
+2026-02-27 12:15:03,725 [INFO] Episode 1404 COMPLETE | Reward -94.32 | Steps 822 | Terminated True | Truncated False
+2026-02-27 12:15:06,922 [INFO] Step 0: reward=5.816, dist=3.30
+2026-02-27 12:15:11,928 [INFO] Episode 1405 COMPLETE | Reward 716.62 | Steps 196 | Terminated True | Truncated False
+2026-02-27 12:15:11,948 [INFO] Checkpoint saved: checkpoints/ppo_ep_01405.pt
+2026-02-27 12:15:11,969 [INFO] New BEST model saved! Reward = 716.62 (episode 1405)
+2026-02-27 12:15:37,311 [INFO] Step 0: reward=-100.000, dist=618.03
+2026-02-27 12:15:37,311 [INFO] Episode 1406 COMPLETE | Reward -100.00 | Steps 1 | Terminated False | Truncated True
+2026-02-27 12:15:39,831 [INFO] Step 0: reward=-0.696, dist=3.51
+2026-02-27 12:15:46,389 [INFO] Step 200: reward=-0.313, dist=3.43
+2026-02-27 12:15:52,597 [INFO] Step 400: reward=-2.205, dist=3.97
+2026-02-27 12:15:59,135 [INFO] Step 600: reward=-1.934, dist=4.55
+2026-02-27 12:16:01,472 [INFO] Performing PPO update at global step 1148928
+2026-02-27 12:16:01,742 [INFO] PPO losses — policy: 0.0931, value: 630.2771, entropy: 4.2242
+2026-02-27 12:16:01,748 [INFO] PPO update completed. Buffer cleared.
+2026-02-27 12:16:03,549 [INFO] Step 800: reward=-1.907, dist=4.85
+2026-02-27 12:16:07,275 [INFO] Episode 1407 COMPLETE | Reward -1443.57 | Steps 1000 | Terminated False | Truncated True
+2026-02-27 12:16:09,730 [INFO] Step 0: reward=-0.256, dist=2.71
+2026-02-27 12:16:17,041 [INFO] Step 200: reward=-2.180, dist=2.59

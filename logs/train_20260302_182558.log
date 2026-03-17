@@ -1,0 +1,23 @@
+2026-03-02 18:25:58,770 [INFO] Starting RL Training
+2026-03-02 18:25:58,770 [INFO] Using device: cuda
+2026-03-02 18:25:58,782 [INFO] GPU name: NVIDIA GeForce RTX 4080
+2026-03-02 18:25:58,783 [INFO] TensorBoard logging enabled (tensorboard/)
+2026-03-02 18:25:59,763 [INFO] Resumed training from checkpoint: checkpoints/ppo_ep_02200.pt | episode = 2200, global_step = 1756188
+2026-03-02 18:26:04,316 [INFO] Step 0: reward=5.763, dist=4.09
+2026-03-02 18:26:10,852 [INFO] Episode 2200 COMPLETE | Reward 929.42 | Steps 176 | Terminated True | Truncated False
+2026-03-02 18:26:10,880 [INFO] Checkpoint saved: checkpoints/ppo_ep_02200.pt
+2026-03-02 18:26:10,907 [INFO] New BEST model saved! Reward = 929.42 (episode 2200)
+2026-03-02 18:26:15,315 [INFO] Step 0: reward=0.091, dist=7.87
+2026-03-02 18:26:20,400 [INFO] Step 200: reward=-1.802, dist=9.06
+2026-03-02 18:26:27,030 [INFO] Step 400: reward=-3.194, dist=10.21
+2026-03-02 18:26:33,575 [INFO] Step 600: reward=0.692, dist=8.50
+2026-03-02 18:26:38,859 [INFO] Step 800: reward=-0.071, dist=7.59
+2026-03-02 18:26:39,069 [INFO] Performing PPO update at global step 1757184
+2026-03-02 18:26:39,399 [INFO] PPO losses — policy: 0.0518, value: 564.7671, entropy: 4.2242
+2026-03-02 18:26:39,401 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 18:26:44,462 [INFO] Episode 2201 COMPLETE | Reward -298.83 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 18:26:48,630 [INFO] Step 0: reward=-0.005, dist=7.75
+2026-03-02 18:26:54,473 [INFO] Step 200: reward=-0.085, dist=8.18
+2026-03-02 18:26:59,122 [INFO] Step 400: reward=0.093, dist=9.54
+2026-03-02 18:27:04,797 [INFO] Step 600: reward=0.046, dist=9.13
+2026-03-02 18:27:12,081 [INFO] Step 800: reward=0.122, dist=7.08

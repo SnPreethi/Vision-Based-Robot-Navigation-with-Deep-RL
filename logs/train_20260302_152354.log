@@ -1,0 +1,54 @@
+2026-03-02 15:23:54,640 [INFO] Starting RL Training
+2026-03-02 15:23:54,640 [INFO] Using device: cuda
+2026-03-02 15:23:54,654 [INFO] GPU name: NVIDIA GeForce RTX 4080
+2026-03-02 15:23:54,655 [INFO] TensorBoard logging enabled (tensorboard/)
+2026-03-02 15:23:55,569 [INFO] Resumed training from checkpoint: checkpoints/ppo_ep_02075.pt | episode = 2075, global_step = 1664841
+2026-03-02 15:24:02,257 [INFO] Step 0: reward=-0.205, dist=2.54
+2026-03-02 15:24:09,221 [INFO] Step 200: reward=-1.435, dist=3.97
+2026-03-02 15:24:15,664 [INFO] Step 400: reward=-0.089, dist=5.76
+2026-03-02 15:24:23,608 [INFO] Step 600: reward=0.090, dist=5.31
+2026-03-02 15:24:31,752 [INFO] Step 800: reward=0.827, dist=1.61
+2026-03-02 15:24:33,130 [INFO] Episode 2075 COMPLETE | Reward 571.76 | Steps 831 | Terminated True | Truncated False
+2026-03-02 15:24:33,163 [INFO] Checkpoint saved: checkpoints/ppo_ep_02075.pt
+2026-03-02 15:24:33,190 [INFO] New BEST model saved! Reward = 571.76 (episode 2075)
+2026-03-02 15:24:36,171 [INFO] Step 0: reward=-2.125, dist=3.49
+2026-03-02 15:24:41,716 [INFO] Episode 2076 COMPLETE | Reward 595.39 | Steps 160 | Terminated True | Truncated False
+2026-03-02 15:24:41,752 [INFO] New BEST model saved! Reward = 595.39 (episode 2076)
+2026-03-02 15:24:44,798 [INFO] Step 0: reward=-0.305, dist=2.42
+2026-03-02 15:24:49,014 [INFO] Episode 2077 COMPLETE | Reward 247.12 | Steps 116 | Terminated True | Truncated False
+2026-03-02 15:24:53,040 [INFO] Step 0: reward=5.994, dist=3.24
+2026-03-02 15:24:58,426 [INFO] Step 200: reward=239.950, dist=0.00
+2026-03-02 15:24:58,426 [INFO] Episode 2078 COMPLETE | Reward 736.53 | Steps 201 | Terminated True | Truncated False
+2026-03-02 15:24:58,451 [INFO] New BEST model saved! Reward = 736.53 (episode 2078)
+2026-03-02 15:25:02,067 [INFO] Step 0: reward=-0.205, dist=3.99
+2026-03-02 15:25:08,581 [INFO] Step 200: reward=0.492, dist=1.43
+2026-03-02 15:25:09,616 [INFO] Episode 2079 COMPLETE | Reward 557.26 | Steps 228 | Terminated True | Truncated False
+2026-03-02 15:25:13,795 [INFO] Step 0: reward=-1.806, dist=3.04
+2026-03-02 15:25:20,068 [INFO] Step 200: reward=-1.905, dist=5.21
+2026-03-02 15:25:28,300 [INFO] Step 400: reward=-1.635, dist=5.41
+2026-03-02 15:25:36,011 [INFO] Step 600: reward=0.910, dist=2.06
+2026-03-02 15:25:38,393 [INFO] Episode 2080 COMPLETE | Reward 788.91 | Steps 647 | Terminated True | Truncated False
+2026-03-02 15:25:38,414 [INFO] Checkpoint saved: checkpoints/ppo_ep_02080.pt
+2026-03-02 15:25:38,450 [INFO] New BEST model saved! Reward = 788.91 (episode 2080)
+2026-03-02 15:25:41,035 [INFO] Step 0: reward=-0.212, dist=3.50
+2026-03-02 15:25:42,476 [INFO] Performing PPO update at global step 1667072
+2026-03-02 15:25:42,954 [INFO] PPO losses — policy: 0.1948, value: 1378.5613, entropy: 4.2242
+2026-03-02 15:25:42,958 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 15:25:48,404 [INFO] Step 200: reward=-0.096, dist=5.57
+2026-03-02 15:25:53,688 [INFO] Step 400: reward=-1.931, dist=7.49
+2026-03-02 15:26:00,246 [INFO] Step 600: reward=0.089, dist=8.68
+2026-03-02 15:26:05,544 [INFO] Step 800: reward=-2.658, dist=8.08
+2026-03-02 15:26:11,815 [INFO] Episode 2081 COMPLETE | Reward 171.42 | Steps 1000 | Terminated False | Truncated True
+2026-03-02 15:26:16,967 [INFO] Step 0: reward=-1.563, dist=3.30
+2026-03-02 15:26:22,013 [INFO] Step 200: reward=0.530, dist=1.13
+2026-03-02 15:26:22,398 [INFO] Episode 2082 COMPLETE | Reward 947.33 | Steps 212 | Terminated True | Truncated False
+2026-03-02 15:26:22,427 [INFO] New BEST model saved! Reward = 947.33 (episode 2082)
+2026-03-02 15:26:26,595 [INFO] Step 0: reward=-0.212, dist=3.25
+2026-03-02 15:26:33,211 [INFO] Step 200: reward=-0.388, dist=3.45
+2026-03-02 15:26:40,065 [INFO] Step 400: reward=0.063, dist=5.65
+2026-03-02 15:26:45,367 [INFO] Step 600: reward=0.083, dist=7.05
+2026-03-02 15:26:52,224 [INFO] Step 800: reward=-0.172, dist=7.88
+2026-03-02 15:26:54,115 [INFO] Performing PPO update at global step 1669120
+2026-03-02 15:26:54,416 [INFO] PPO losses — policy: 0.0594, value: 655.1487, entropy: 4.2242
+2026-03-02 15:26:54,423 [INFO] PPO update completed. Buffer cleared.
+2026-03-02 15:26:57,911 [INFO] Episode 2083 COMPLETE | Reward -608.30 | Steps 1000 | Terminated False | Truncated True

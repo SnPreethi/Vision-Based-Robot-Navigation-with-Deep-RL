@@ -1,0 +1,13 @@
+2026-02-24 12:34:37,104 [INFO] Starting RL Training
+2026-02-24 12:34:37,104 [INFO] Using device: cuda
+2026-02-24 12:34:37,116 [INFO] GPU name: NVIDIA GeForce RTX 4080
+2026-02-24 12:34:37,117 [INFO] TensorBoard logging enabled (tensorboard/)
+2026-02-24 12:34:37,804 [INFO] Resumed training from checkpoint: checkpoints/ppo_ep_00350.pt | episode = 350, global_step = 309229
+2026-02-24 12:34:42,493 [INFO] Step 0: reward=-0.305, dist=3.70
+2026-02-24 12:34:48,702 [INFO] Step 200: reward=4.176, dist=4.39
+2026-02-24 12:34:55,742 [INFO] Step 400: reward=-1.915, dist=5.25
+2026-02-24 12:35:00,622 [INFO] Step 600: reward=0.099, dist=5.40
+2026-02-24 12:35:05,227 [INFO] Policy action (normalized): v = +1.000, w = +0.918 | Cmd_vel (scaled): v = +1.000 m/s, w = +0.918 rad/s
+2026-02-24 12:35:06,518 [INFO] Step 800: reward=0.125, dist=4.99
+2026-02-24 12:35:10,678 [INFO] Episode 350 COMPLETE | Reward -786.10 | Steps 1000 | Terminated False | Truncated True
+2026-02-24 12:35:10,704 [INFO] Checkpoint saved: checkpoints/ppo_ep_00350.pt
